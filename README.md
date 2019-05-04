@@ -42,4 +42,4 @@ Repositório de links e afins sobre Dados:
 - [Análise de Redes Sociais no R (1/3) - YouTube](https://www.youtube.com/watch?v=7W-dvk6GupA&list=PLKLmseeuB7Uy-3jX7YkPvnKEBce2PGbU_)
 - [Daniel Bolnick on Twitter: "Predicted # of deaths in Season 8 #GameofThrones: 1276. Based on a log-linear regression from seasons 1-7 (t = 7.1, P = 0.0009), using data in https://t.co/eg6COO19qo… https://t.co/4fvQu01cUy"](https://twitter.com/DanielBolnick/status/1115319449945628673)
 - [O'Reilly Graph Algorithms Book - Neo4j Graph Database Platform](https://neo4j.com/graph-algorithms-book/)
-- [How To Do Firmware Analysis. Tools, Tips, and Tricks | Pen Test Partners](https://www.pentestpartners.com/security-blog/how-to-do-firmware-analysis-tools-tips-and-tricks/)
+
