@@ -45,6 +45,16 @@ Repositório de links e afins sobre Dados:
 - [Suporte do rstats às iniciativas de transparência do Tesouro Nacional brasileiro](https://medium.com/@fernandobarbalho/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)
 - [Levando o patinho feio ao nirvana: uma história de amor e ódio entre pdf e dados abertos](https://medium.com/@fernandobarbalho/levando-o-patinho-feio-ao-nirvana-uma-hist%C3%B3ria-de-amor-e-%C3%B3dio-entre-pdf-e-dados-abertos-37f9b62ec0b0)
 
+#### Estilo de código
+
+- [Style guide](http://adv-r.had.co.nz/Style.html): Good coding style is like using correct punctuation. You can manage without it, but it sure makes things easier to read. As with styles of punctuation, there are many possible variations.
+- [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml):The goal of the R Programming Style Guide is to make our R code easier to read, share, and verify. The rules below were designed in collaboration with the entire R user community at Google. 
+- [formatR](https://yihui.name/formatr/).
+
+#### 
+
+- [R and RStudio Basics](https://ismayc.github.io/rbasics-book/3-rstudiobasics.html)
+
 ### Modelos
 
 - [OSF | ShareSEM: Example and Template R Scripts for Lavaan, Blavaan, and More](https://osf.io/nh2mb/)
