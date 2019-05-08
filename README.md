@@ -44,6 +44,8 @@ Repositório de links e afins sobre Dados:
 - [Análise de Redes Sociais no R (1/3)](https://www.youtube.com/watch?v=7W-dvk6GupA&list=PLKLmseeuB7Uy-3jX7YkPvnKEBce2PGbU_)
 - [Suporte do rstats às iniciativas de transparência do Tesouro Nacional brasileiro](https://medium.com/@fernandobarbalho/suporte-do-rstats-%C3%A0s-iniciativas-de-transpar%C3%AAncia-do-tesouro-nacional-brasileiro-dfdd5e1ab831)
 - [Levando o patinho feio ao nirvana: uma história de amor e ódio entre pdf e dados abertos](https://medium.com/@fernandobarbalho/levando-o-patinho-feio-ao-nirvana-uma-hist%C3%B3ria-de-amor-e-%C3%B3dio-entre-pdf-e-dados-abertos-37f9b62ec0b0)
+- [R and RStudio Basics](https://ismayc.github.io/rbasics-book/3-rstudiobasics.html)
+- [RStudio Essentials](https://resources.rstudio.com/)
 
 #### Estilo de código
 
@@ -51,9 +53,10 @@ Repositório de links e afins sobre Dados:
 - [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml):The goal of the R Programming Style Guide is to make our R code easier to read, share, and verify. The rules below were designed in collaboration with the entire R user community at Google. 
 - [formatR](https://yihui.name/formatr/).
 
-#### 
+#### Tutoriais
 
-- [R and RStudio Basics](https://ismayc.github.io/rbasics-book/3-rstudiobasics.html)
+- [RStudio Tutorial – How to Import & Transform Data?](https://data-flair.training/blogs/rstudio-tutorial/)
+- [Basic Data Analysis through R/R Studio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html)
 
 ### Modelos
 
