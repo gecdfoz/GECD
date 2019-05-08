@@ -19,8 +19,9 @@ Repositório de links e afins sobre Dados:
 
 - [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
 - [Visdown - Markdown for Visualisation](https://visdown.com/)
+- Alberto Cairo: [Why a picture isn't necessarily worth a thousand words](https://community.jmp.com/t5/JMP-Blog/Alberto-Cairo-Why-a-picture-isn-t-necessarily-worth-a-thousand/ba-p/190124)
 
-### Dados
+### Trabalhando com Dados
 
 - [Making Internet Things, Part 1: Working with Data](https://pudding.cool/process/how-to-make-dope-shit-part-1/)
 - [First M87 Event Horizon Telescope Results. III. Data Processing and Calibration - IOPscience](https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57)
@@ -77,6 +78,13 @@ Repositório de links e afins sobre Dados:
 
 - [Data Science | University of London](https://london.ac.uk/courses/data-science-msc)
 
+### Bases de Dados
+
+- [World Bank Data](https://datahub.io/collections/world-bank): The World Bank has a wide array of high quality data and much of it is open data. It covers several distinct collections and databases.
+- WorldBank [Gender Stats](https://datacatalog.worldbank.org/dataset/gender-statistics): The Gender Statistics database is a comprehensive source for the latest sex-disaggregated data and gender statistics covering demography, education, health, access to economic opportunities, public life and decision-making, and agency.
+  - [How to download a CSV file from the World Bank's dataset](https://stackoverflow.com/questions/29167727/how-to-download-a-csv-file-from-the-world-banks-dataset)
+- Brasil.IO: [Libertação de Dados Públicos, com Python](http://turicas.info/slides/brasil.io/qconsp2019/)
+  
 ### Repositórios
 
 - [datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles): Versión en español del proyecto #tidytuesday
