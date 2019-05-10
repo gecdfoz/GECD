@@ -20,6 +20,7 @@ Repositório de links e afins sobre Dados:
 - [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
 - [Visdown - Markdown for Visualisation](https://visdown.com/)
 - Alberto Cairo: [Why a picture isn't necessarily worth a thousand words](https://community.jmp.com/t5/JMP-Blog/Alberto-Cairo-Why-a-picture-isn-t-necessarily-worth-a-thousand/ba-p/190124)
+- Gina Reynolds: [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html)
 
 ### Trabalhando com Dados
 
@@ -34,6 +35,7 @@ Repositório de links e afins sobre Dados:
 ### Estatística
 
 - [Logistic Regression · UC Business Analytics R Programming Guide](https://uc-r.github.io/logistic_regression)
+- Statistics and Data Science with R: [Complete Course](https://statslectures.com/r-stats-videos-tutorials)
 
 ### Interatividade
 
@@ -47,11 +49,14 @@ Repositório de links e afins sobre Dados:
 - [Levando o patinho feio ao nirvana: uma história de amor e ódio entre pdf e dados abertos](https://medium.com/@fernandobarbalho/levando-o-patinho-feio-ao-nirvana-uma-hist%C3%B3ria-de-amor-e-%C3%B3dio-entre-pdf-e-dados-abertos-37f9b62ec0b0)
 - [R and RStudio Basics](https://ismayc.github.io/rbasics-book/3-rstudiobasics.html)
 - [RStudio Essentials](https://resources.rstudio.com/)
+- [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
+- [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html): a flipbook for data wrangling and plotting and modeling | made with Xaringan
+- [A Crash Course in the R Programming Language](https://billpetti.github.io/Crash_course_in_R/)
 
 #### Estilo de código
 
 - [Style guide](http://adv-r.had.co.nz/Style.html): Good coding style is like using correct punctuation. You can manage without it, but it sure makes things easier to read. As with styles of punctuation, there are many possible variations.
-- [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml):The goal of the R Programming Style Guide is to make our R code easier to read, share, and verify. The rules below were designed in collaboration with the entire R user community at Google. 
+- [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml):The goal of the R Programming Style Guide is to make our R code easier to read, share, and verify. The rules below were designed in collaboration with the entire R user community at Google.
 - [formatR](https://yihui.name/formatr/).
 
 #### Tutoriais
@@ -62,6 +67,7 @@ Repositório de links e afins sobre Dados:
 ### Modelos
 
 - [OSF | ShareSEM: Example and Template R Scripts for Lavaan, Blavaan, and More](https://osf.io/nh2mb/)
+- [BOOKDOWN](https://bookdown.org/)
 
 ### Machine Learning
 
@@ -90,6 +96,12 @@ Repositório de links e afins sobre Dados:
 - [datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles): Versión en español del proyecto #tidytuesday
 - [another book on data science](https://github.com/rnorm/book_sample)
 - [O'Reilly Graph Algorithms Book - Neo4j Graph Database Platform](https://neo4j.com/graph-algorithms-book/)
+- Data science cheatsheets:
+  - [Cheat Sheet](https://www.dropbox.com/sh/67qvytsapfk3rpq/AAARGdVnqswdZ0EXVGZkch33a?dl=0) (keras, matplotlib, R, python, pandas, numpy, etc..)
+  - [Cheat Sheet](https://www.dropbox.com/sh/0kf92mu7kl4yoat/AABL47l2kduSdWRUXbAFvTMea?dl=0) (R, DateTimes, Databases, etc..)
+- [tidytuesday](https://github.com/rfordatascience/tidytuesday) - Official repo for the #tidytuesday project.
+- [data_sci_guide](https://github.com/Chris-Engelhardt/data_sci_guide) - A community-sourced data science repo.
+- [Data-Science](https://github.com/paulinhacnn/Data-Science) -  Toda semana um novo material estará disponível para guiar no estudo de ciência de dados =)
 
 ### Assuntos Gerais
 
@@ -103,6 +115,7 @@ Repositório de links e afins sobre Dados:
 
 - [Maps Mania: Plastic Polluted River & Oceans](http://googlemapsmania.blogspot.com/2019/04/plastic-polluted-river-oceans.html)
 - [What's Really Warming the World? Climate deniers blame natural factors; NASA data proves otherwise](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
+- [O poder da Inteligência de Dados para Gestores do Ensino Superior](https://universidados.com.br/)
 
 #### Copyleft
 
@@ -117,3 +130,8 @@ Repositório de links e afins sobre Dados:
 #### Pesquisa
 
 - [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914)
+
+#### Livros
+
+- [Political Analysis Using R](https://www.springer.com/us/book/9783319234458)
+- [R for Data Science](https://r4ds.had.co.nz/)
