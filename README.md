@@ -116,6 +116,7 @@ Repositório de links e afins sobre Dados:
 - [Maps Mania: Plastic Polluted River & Oceans](http://googlemapsmania.blogspot.com/2019/04/plastic-polluted-river-oceans.html)
 - [What's Really Warming the World? Climate deniers blame natural factors; NASA data proves otherwise](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
 - [O poder da Inteligência de Dados para Gestores do Ensino Superior](https://universidados.com.br/)
+- [Analysing the Wahl-O-Mat about the 2019 EU election](https://github.com/askLubich/Wahl-O-Mat-EU-2019)
 
 #### Copyleft
 
