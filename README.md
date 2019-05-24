@@ -136,3 +136,4 @@ Repositório de links e afins sobre Dados:
 
 - [Political Analysis Using R](https://www.springer.com/us/book/9783319234458)
 - [R for Data Science](https://r4ds.had.co.nz/)
+- [Data Science from Scratch: First Principles with Python](https://www.amazon.co.uk/Data-Science-Scratch-Joel-Grus/dp/1492041130/)
