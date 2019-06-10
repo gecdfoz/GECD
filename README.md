@@ -84,6 +84,10 @@ Repositório de links e afins sobre Dados:
 
 - [Data Science | University of London](https://london.ac.uk/courses/data-science-msc)
 
+#### Palestras
+
+- [realworldscicomp](https://github.com/melissawm/realworldscicomp): Palestra "De Fortran a Julia: Computação Científica no Mundo Real".
+
 ### Bases de Dados
 
 - [World Bank Data](https://datahub.io/collections/world-bank): The World Bank has a wide array of high quality data and much of it is open data. It covers several distinct collections and databases.
