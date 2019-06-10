@@ -120,6 +120,8 @@ Repositório de links e afins sobre Dados:
 - [Maps Mania: Plastic Polluted River & Oceans](http://googlemapsmania.blogspot.com/2019/04/plastic-polluted-river-oceans.html)
 - [What's Really Warming the World? Climate deniers blame natural factors; NASA data proves otherwise](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
 - [O poder da Inteligência de Dados para Gestores do Ensino Superior](https://universidados.com.br/)
+- [Analysing the Wahl-O-Mat about the 2019 EU election](https://github.com/askLubich/Wahl-O-Mat-EU-2019)
+- [Lok Sabha ELection Results 2019](https://data.indianexpress.com/lok-sabha-elections-results-2019-live-counting/)
 
 #### Copyleft
 
@@ -139,3 +141,4 @@ Repositório de links e afins sobre Dados:
 
 - [Political Analysis Using R](https://www.springer.com/us/book/9783319234458)
 - [R for Data Science](https://r4ds.had.co.nz/)
+- [Data Science from Scratch: First Principles with Python](https://www.amazon.co.uk/Data-Science-Scratch-Joel-Grus/dp/1492041130/)
