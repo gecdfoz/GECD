@@ -21,6 +21,11 @@ Repositório de links e afins sobre Dados:
 - [Visdown - Markdown for Visualisation](https://visdown.com/)
 - Alberto Cairo: [Why a picture isn't necessarily worth a thousand words](https://community.jmp.com/t5/JMP-Blog/Alberto-Cairo-Why-a-picture-isn-t-necessarily-worth-a-thousand/ba-p/190124)
 - Gina Reynolds: [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html)
+- [Concentric bubble charts are terrible; pie charts and moon charts may be OK](http://www.thefunctionalart.com/2019/06/concentric-bubble-charts-are-terrible.html)
+- [Show AND tell](http://www.thefunctionalart.com/2019/06/show-and-tell.html)
+- [Thoughts and readings about visualization critique](http://www.thefunctionalart.com/2019/06/thoughts-and-readings-about.html)
+- [The language of visualization is ever-expanding](http://www.thefunctionalart.com/2019/06/the-language-of-visualization-is-ever.html)
+- [RamanMap](https://github.com/amjadtaleb/RamanMap): Read spectral map file, find features, use KMeans to cluster pixels into different materials and interactive GUI using bokeh.
 
 ### Trabalhando com Dados
 
@@ -31,11 +36,13 @@ Repositório de links e afins sobre Dados:
 
 - [Flow maps in QGIS – no plugins needed!](https://anitagraser.com/2019/05/04/flow-maps-in-qgis-no-plugins-needed/)
 - [Visualization of wolf pack territoriality based on 68,000 GPS-locations over a 7 month period [OC]. : dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/biel6f/visualization_of_wolf_pack_territoriality_based/)
+- [Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 
 ### Estatística
 
 - [Logistic Regression · UC Business Analytics R Programming Guide](https://uc-r.github.io/logistic_regression)
 - Statistics and Data Science with R: [Complete Course](https://statslectures.com/r-stats-videos-tutorials)
+- [Statistical Rethinking](https://github.com/rmcelreath/statrethinking_winter2019): A Bayesian Course Using R and Stan
 
 ### Interatividade
 
@@ -52,6 +59,7 @@ Repositório de links e afins sobre Dados:
 - [YaRrr! The Pirate’s Guide to R](https://bookdown.org/ndphillips/YaRrr/)
 - [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html): a flipbook for data wrangling and plotting and modeling | made with Xaringan
 - [A Crash Course in the R Programming Language](https://billpetti.github.io/Crash_course_in_R/)
+- [rainbowrite](https://github.com/richfitz/rainbowrite): Port of lolcat to R, providing a drop-in improved cat, warning and stop function.
 
 #### Estilo de código
 
@@ -79,6 +87,7 @@ Repositório de links e afins sobre Dados:
 ### Raspagem de Dados
 
 - [Script para tirar série história de BOs do Estado de SP (fonte: SSPSP)](https://gist.github.com/voltdatalab/0bc390e674548b9b66c4d4cf9cdb6e2f)
+- [World Cup in six lines of Python 3. Jogos da Copa do Mundo em cinco linhas de Python 3.](https://gist.github.com/fmasanori/1288160dad16cc473a53)
 
 ### Cursos
 
@@ -94,6 +103,29 @@ Repositório de links e afins sobre Dados:
 - WorldBank [Gender Stats](https://datacatalog.worldbank.org/dataset/gender-statistics): The Gender Statistics database is a comprehensive source for the latest sex-disaggregated data and gender statistics covering demography, education, health, access to economic opportunities, public life and decision-making, and agency.
   - [How to download a CSV file from the World Bank's dataset](https://stackoverflow.com/questions/29167727/how-to-download-a-csv-file-from-the-world-banks-dataset)
 - Brasil.IO: [Libertação de Dados Públicos, com Python](http://turicas.info/slides/brasil.io/qconsp2019/)
+
+#### Mudanças Climáticas
+
+- [Anual Climate temperatures](http://www-users.york.ac.uk/~kdc3/papers/coverage2013/had4_krig_annual_v2_0_0.txt)
+- [Berkeley Earth](http://berkeleyearth.lbl.gov/auto/Global/Land_and_Ocean_complete.txt): This file contains a detailed summary of the changes in Earth's global average surface temperature estimated by combining the Berkeley Earth land-surface temperature field with a reinterpolated version of the HadSST ocean temperature field.
+- [NOAA](https://climate.copernicus.eu/sites/default/files/2019-06/ts_1month_anomaly_Global_ea_2T_201905_v01.csv)
+- [GLOBAL Land-Ocean Temperature Index in 0.01 degrees Celsius](https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts+dSST.txt): GHCN-v3 1880-04/2019 + SST: ERSST v5 1880-04/2019
+- [Met Office Hadley Centre observations datasets](http://www.metoffice.gov.uk/hadobs/hadcrut4/)
+- Aquecimento dos Oceanos:
+  - [NOAA Ocean Data](https://data.nodc.noaa.gov/woa/DATA_ANALYSIS/3M_HEAT_CONTENT/DATA/basin/yearly/h22-w0-700m.dat)
+  - [2018 Continues Record Global Ocean Warming](https://link.springer.com/article/10.1007/s00376-019-8276-x)
+  - [altimetry.fr](ftp://ftp.aviso.altimetry.fr/pub/oceano/AVISO/indicators/msl/MSL_Serie_MERGED_Global_AVISO_GIA_Adjust_Filter2m.txt)
+  - [csiro.au](ftp://ftp.csiro.au/legresy/gmsl_files/CSIRO_Alt.csv)
+- Extensão de gelo no Ártico:
+  - [Goddard](ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/monthly/data/N_09_extent_v3.0.csv)
+  - [sea ice area anomalies (millions of sq km) relative to 1981-2010](https://climate.copernicus.eu/sites/default/files/2019-06/ts_1month_anomaly_polar_ea_CI_201905_v01.csv)
+  - [Massa Glaciar](http://wgms.ch/data/faq/mb_ref.csv)
+  - [Hadley Centre Sea Ice and Sea Surface Temperature data set (HadISST)](https://www.metoffice.gov.uk/hadobs/hadisst/)
+- CO²:
+  - [NOAA ESRL CO2 micromol/mol](ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt)
+  - [NOAA ESRL CO2](ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_gl.txt)
+  - [kishou.go.jp](https://gaw.kishou.go.jp/static/publications/global_mean_mole_fractions/2018/co2_monthly_20181122.csv)
+- [Tweet of the Climate 2018](https://twitter.com/micefearboggis/status/1138471910201856005)
   
 ### Repositórios
 
@@ -106,6 +138,7 @@ Repositório de links e afins sobre Dados:
 - [tidytuesday](https://github.com/rfordatascience/tidytuesday) - Official repo for the #tidytuesday project.
 - [data_sci_guide](https://github.com/Chris-Engelhardt/data_sci_guide) - A community-sourced data science repo.
 - [Data-Science](https://github.com/paulinhacnn/Data-Science) -  Toda semana um novo material estará disponível para guiar no estudo de ciência de dados =)
+- [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
 
 ### Assuntos Gerais
 
@@ -122,6 +155,7 @@ Repositório de links e afins sobre Dados:
 - [O poder da Inteligência de Dados para Gestores do Ensino Superior](https://universidados.com.br/)
 - [Analysing the Wahl-O-Mat about the 2019 EU election](https://github.com/askLubich/Wahl-O-Mat-EU-2019)
 - [Lok Sabha ELection Results 2019](https://data.indianexpress.com/lok-sabha-elections-results-2019-live-counting/)
+- [Exploratory Analysis of NBA Salary Data](https://github.com/basketballrelativity/salaries)
 
 #### Copyleft
 
