@@ -15,21 +15,43 @@ Repositório de links e afins sobre Dados:
 
 ## Links
 
+### Configuração
+
+- [Jupyter and data science in Fedora](https://fedoramagazine.org/jupyter-and-data-science-in-fedora/)
+
 ### Apresentação de Dados
 
 - [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
 - [Visdown - Markdown for Visualisation](https://visdown.com/)
 - Alberto Cairo: [Why a picture isn't necessarily worth a thousand words](https://community.jmp.com/t5/JMP-Blog/Alberto-Cairo-Why-a-picture-isn-t-necessarily-worth-a-thousand/ba-p/190124)
 - Gina Reynolds: [the ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html)
-- [Concentric bubble charts are terrible; pie charts and moon charts may be OK](http://www.thefunctionalart.com/2019/06/concentric-bubble-charts-are-terrible.html)
-- [Show AND tell](http://www.thefunctionalart.com/2019/06/show-and-tell.html)
-- [Thoughts and readings about visualization critique](http://www.thefunctionalart.com/2019/06/thoughts-and-readings-about.html)
-- [The language of visualization is ever-expanding](http://www.thefunctionalart.com/2019/06/the-language-of-visualization-is-ever.html)
 - [RamanMap](https://github.com/amjadtaleb/RamanMap): Read spectral map file, find features, use KMeans to cluster pixels into different materials and interactive GUI using bokeh.
+- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/index.html) *1
+- [DataViz Project](https://datavizproject.com/): This is a website trying to present all relevant data visualizations, so you can find the right visualization and get inspired how to make them.
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+- [The 25 Best Data Visualizations of 2018](https://visme.co/blog/best-data-visualizations/)
+- Explaining A Single Isotype: [Creating Simplicity From Complexity](https://medium.com/data-visualization-society/explaining-a-single-isotype-creating-simplicity-from-complexity-15c174580336)
+- The Functional Art:
+  - [Lines aren't just for time-series](http://www.thefunctionalart.com/2019/06/lines-arent-just-for-time-series.html)
+  - [Aesthetics and ethics](http://www.thefunctionalart.com/2019/07/aesthetics-as-ethics-jaime-serras.html): Jaime Serra's visualization philosophy
+  - [Visualizing unreported murders in Mexico](http://www.thefunctionalart.com/2019/07/visualizing-unreported-murders-in-mexico.html)
+  - [A Venn diagram matrix by FiveThirtyEight](http://www.thefunctionalart.com/2019/06/a-venn-diagram-matrix-by-fivethirtyeight.html)
+  - [Concentric bubble charts are terrible; pie charts and moon charts may be OK](http://www.thefunctionalart.com/2019/06/concentric-bubble-charts-are-terrible.html)
+  - [Show AND tell](http://www.thefunctionalart.com/2019/06/show-and-tell.html)
+  - [Thoughts and readings about visualization critique](http://www.thefunctionalart.com/2019/06/thoughts-and-readings-about.html)
+  - [The language of visualization is ever-expanding](http://www.thefunctionalart.com/2019/06/the-language-of-visualization-is-ever.html)
+  - [Let's design more explanation graphics](http://www.thefunctionalart.com/2019/07/lets-design-more-explanation-graphics.html): but let's edit them more tightly
+  - [Mapping diversity and taking probability and base rates into account](http://www.thefunctionalart.com/2019/07/mapping-diversity-and-taking.html)
+
+### Cores
+
+- [Our understanding of rainbow color schemes remains incomplete](http://www.thefunctionalart.com/2019/06/our-understanding-of-rainbow-color.html)
 
 ### Trabalhando com Dados
 
-- [Making Internet Things, Part 1: Working with Data](https://pudding.cool/process/how-to-make-dope-shit-part-1/)
+- [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
+  - How to Make Dope Shit, Part 1: [Working with Data](https://pudding.cool/process/how-to-make-dope-shit-part-1/)
+  - How to Make Dope Shit, Part 2: [Design](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
 - [First M87 Event Horizon Telescope Results. III. Data Processing and Calibration - IOPscience](https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57)
 
 ### Dados Geográficos
@@ -37,6 +59,7 @@ Repositório de links e afins sobre Dados:
 - [Flow maps in QGIS – no plugins needed!](https://anitagraser.com/2019/05/04/flow-maps-in-qgis-no-plugins-needed/)
 - [Visualization of wolf pack territoriality based on 68,000 GPS-locations over a 7 month period [OC]. : dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/biel6f/visualization_of_wolf_pack_territoriality_based/)
 - [Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
+- [Comparing OpenStreetMap and Wikidata](https://janakiev.com/slides/wikidata-openstreetmap/) by Nikolai Janakiev
 
 ### Estatística
 
@@ -47,6 +70,7 @@ Repositório de links e afins sobre Dados:
 ### Interatividade
 
 - [How to Turn Your ggplot2 Visualization into an Interactive Tweet » The Datatitian](https://datatitian.com/how-to-turn-your-ggplot2-visualization-into-an-interactive-tweet/)
+- [XrViz](https://github.com/intake/xrviz): [An interactive visualisation interface for Xarrays](https://levelup.gitconnected.com/xrviz-an-interactive-visualisation-interface-for-xarrays-9ecf8e325aa9?gi=3875f15a2a7)
 
 ### Linguagem R
 
@@ -60,6 +84,7 @@ Repositório de links e afins sobre Dados:
 - [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html): a flipbook for data wrangling and plotting and modeling | made with Xaringan
 - [A Crash Course in the R Programming Language](https://billpetti.github.io/Crash_course_in_R/)
 - [rainbowrite](https://github.com/richfitz/rainbowrite): Port of lolcat to R, providing a drop-in improved cat, warning and stop function.
+- [VOSONDash](https://github.com/vosonlab/VOSONDash): R Shiny application for interactive analysis of networks created by vosonSML.
 
 #### Estilo de código
 
@@ -71,6 +96,14 @@ Repositório de links e afins sobre Dados:
 
 - [RStudio Tutorial – How to Import & Transform Data?](https://data-flair.training/blogs/rstudio-tutorial/)
 - [Basic Data Analysis through R/R Studio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html)
+- [What does it look like at the top of the world?](https://www.simoncoulombe.com/2019/06/top-of-the-world/)
+- [modelDown](https://mi2datalab.github.io/modelDown/): modelDown generates a website with HTML summaries for predictive models. [example](https://mi2datalab.github.io/modelDown_example/), on [cran](http://smarterpoland.pl/index.php/2019/06/modeldown-is-now-on-cran/)
+- Links by [João Pedro](https://twitter.com/KimJoaoUn/status/1142942682613977093). (os que tiver *1 foi desse fio)
+  - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/index.html)
+  - [R for Data Science](https://r4ds.had.co.nz/index.html)
+  - [Quantitative Social Science](http://qss.princeton.press/), by Kosuke Imai [materiais](http://qss.princeton.press/student-resources-for-quantitative-social-science/) [mais](http://gen.lib.rus.ec/book/index.php?md5=11D86C0E1D9F653266D2824B17E7DECC)
+  - [petR](https://github.com/pedrocava/petR): Curso de R para o PET da Economia da UFF. Aulas e Material do Workshop de R com o PET da Faculdade de Economia da UFF.
+- [Workshop sobre criação de workflows no workbench para exploração de dados](https://docs.google.com/presentation/d/e/2PACX-1vRhkHlPcCpw6TwFk8D5kcvRX1PQ4KWkOUtxACqOf_WcHG6JVzd1YUYAATBz3oQpKAxbSCyx6OAVvOf2/pub?start=false&loop=false&delayms=3000#slide=id.p)
 
 ### Modelos
 
@@ -88,6 +121,8 @@ Repositório de links e afins sobre Dados:
 
 - [Script para tirar série história de BOs do Estado de SP (fonte: SSPSP)](https://gist.github.com/voltdatalab/0bc390e674548b9b66c4d4cf9cdb6e2f)
 - [World Cup in six lines of Python 3. Jogos da Copa do Mundo em cinco linhas de Python 3.](https://gist.github.com/fmasanori/1288160dad16cc473a53)
+- [tweeter Hashtag grabber](https://gist.github.com/cuducos/08f7051ae7066d36bc5ff5803d2bf46f)
+- [Construindo um robô monitor de Twitter](https://docs.google.com/presentation/d/e/2PACX-1vQ4fBn3y0pKVBMYfctLJAjG1sbXX4dXiOH9cZ2izHHAralSPJbadn2CZkFgjlij2n7KQZcQFJW6q1p2/pub?start=false&loop=false&delayms=3000#slide=id.g35f391192_00)
 
 ### Cursos
 
@@ -97,12 +132,20 @@ Repositório de links e afins sobre Dados:
 
 - [realworldscicomp](https://github.com/melissawm/realworldscicomp): Palestra "De Fortran a Julia: Computação Científica no Mundo Real".
 
+### Geo
+
+- [geobr](https://github.com/ipeaGIT/geobr): Easy access to shapefiles of the Brazilian Institute of Geography and Statistics (IBGE) and other official spatial data sets of Brazil.
+
 ### Bases de Dados
 
 - [World Bank Data](https://datahub.io/collections/world-bank): The World Bank has a wide array of high quality data and much of it is open data. It covers several distinct collections and databases.
 - WorldBank [Gender Stats](https://datacatalog.worldbank.org/dataset/gender-statistics): The Gender Statistics database is a comprehensive source for the latest sex-disaggregated data and gender statistics covering demography, education, health, access to economic opportunities, public life and decision-making, and agency.
   - [How to download a CSV file from the World Bank's dataset](https://stackoverflow.com/questions/29167727/how-to-download-a-csv-file-from-the-world-banks-dataset)
 - Brasil.IO: [Libertação de Dados Públicos, com Python](http://turicas.info/slides/brasil.io/qconsp2019/)
+- [Labor Force Statistics from the Current Population Survey](https://data.bls.gov/timeseries/LNS14000000)
+- [Buscador de Fondos de Inversión](https://www.selfbank.es/busqueda/fondos)
+- [pySGS](https://github.com/rafpyprog/pySGS): 📈 Python interface for the Brazilian Central Bank's Time Series Management System (SGS)
+- [mapa da violência de gênero](https://mapadaviolenciadegenero.com.br/downloads/)
 
 #### Mudanças Climáticas
 
@@ -156,6 +199,9 @@ Repositório de links e afins sobre Dados:
 - [Analysing the Wahl-O-Mat about the 2019 EU election](https://github.com/askLubich/Wahl-O-Mat-EU-2019)
 - [Lok Sabha ELection Results 2019](https://data.indianexpress.com/lok-sabha-elections-results-2019-live-counting/)
 - [Exploratory Analysis of NBA Salary Data](https://github.com/basketballrelativity/salaries)
+- [twitter-overlap](https://github.com/fivethirtyeight/twitter-overlap): 2020 Democratic presidential candidate Twitter followers
+- [Ciência de dados na linha de comando](http://turicas.info/slides/linha-de-comando/abraji-2019.html#/)
+- [Conteúdos mais acessados pelos Iguaçuenses](https://medialabfoz.com/2019/06/28/top10primeiraquinzena/) – período 28/05 até 10/06. By MediaLAB FOZ
 
 #### Copyleft
 
@@ -176,3 +222,9 @@ Repositório de links e afins sobre Dados:
 - [Political Analysis Using R](https://www.springer.com/us/book/9783319234458)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [Data Science from Scratch: First Principles with Python](https://www.amazon.co.uk/Data-Science-Scratch-Joel-Grus/dp/1492041130/)
+- [How Charts Lie: Getting Smarter about Visual Information](https://www.booktopia.com.au/how-charts-lie-alberto-cairo/prod9781324001560.html)
+- [Fundamentals of Data Visualization](https://b-ok.org/book/4990677/8126d3): A Primer on Making Informative and Compelling Figures.
+
+### Fun
+
+- [Google Sheets Formula Clock](https://www.benlcollins.com/spreadsheets/google-sheets-formula-clock/)
