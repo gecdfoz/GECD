@@ -44,6 +44,7 @@ Repositório de links e afins sobre Dados:
   - [Mapping diversity and taking probability and base rates into account](http://www.thefunctionalart.com/2019/07/mapping-diversity-and-taking.html)
   - [Absolute or relative values?](http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html)
 - [￼RawGraphs](https://rawgraphs.io/): The missing link between spreadsheets and data visualization. [repo](https://github.com/rawgraphs/raw/)
+- [Panel GUI project for GSOC](https://github.com/intake/intake-gsoc-gui)
 
 ### Cores
 
