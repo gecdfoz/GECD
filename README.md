@@ -4,17 +4,17 @@ Repositório de links e afins sobre Grupo de Estudos Ciencia de Dados:
 
 ## Diretórios
 
-- Aulas
-  * 0709-02  
-  * 0911-06  
-  * 1210-05  
-  * 1708-00  
-  * 2109-03  
-  * 2311-07  
-  * 2408-01  
-  * 2809-04
+* Aulas
+  * 00 - 17/08: git
+  * 01 - 24/08  
+  * 02 - 07/09  
+  * 03 - 21/09  
+  * 04 - 28/09  
+  * 05 - 12/10  
+  * 06 - 09/11  
+  * 07 - 23/11
   
-- Temas
+* Temas
   * Estatística
   * Git
   * Python
