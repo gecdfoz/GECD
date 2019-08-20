@@ -90,6 +90,7 @@ Repositório de links e afins sobre Dados:
 - [VOSONDash](https://github.com/vosonlab/VOSONDash): R Shiny application for interactive analysis of networks created by vosonSML.
 - [excelR](https://github.com/Swechhya/excelR): An Interface to 'jExcel.js' Library
 - [Analyze Instagram with R](http://thinktostart.com/analyze-instagram-r/): This tutorial will show you how you create an Instagram app, create an authentication process with R and get data via the Instagram API.
+- [widyr](https://github.com/dgrtwo/widyr): Widen, process, and re-tidy a dataset.
 
 #### Estilo de código
 
@@ -156,7 +157,8 @@ Repositório de links e afins sobre Dados:
 - [pySGS](https://github.com/rafpyprog/pySGS): 📈 Python interface for the Brazilian Central Bank's Time Series Management System (SGS)
 - [mapa da violência de gênero](https://mapadaviolenciadegenero.com.br/downloads/)
 - [leis-brasileiras](https://github.com/MinisterioPublicoRJ/leis-brasileiras): Scripts para baixar de forma automatizada as leis brasileiras disponíveis em sites de órgãos do governo.
-
+- [The Antarctic Iceberg Tracking Database](https://www.scp.byu.edu/data/iceberg/)
+  
 #### Mudanças Climáticas
 
 - [Anual Climate temperatures](http://www-users.york.ac.uk/~kdc3/papers/coverage2013/had4_krig_annual_v2_0_0.txt)
