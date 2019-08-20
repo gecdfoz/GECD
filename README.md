@@ -6,8 +6,8 @@ Repositório de links e afins sobre Grupo de Estudos Ciencia de Dados:
 
 * Aulas
   * 00 - 17/08: git
-  * 01 - 24/08  
-  * 02 - 07/09  
+  * 01 - 24/08: estatística básica
+  * 02 - 07/09: introdução ao python
   * 03 - 21/09  
   * 04 - 28/09  
   * 05 - 12/10  
