@@ -27,4 +27,3 @@ Repositório de links e afins sobre Grupo de Estudos Ciencia de Dados:
 ## Links
 
 [Materiais e links complementares](Material.md)
-

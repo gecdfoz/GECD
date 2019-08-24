@@ -45,7 +45,10 @@ Repositório de links e afins sobre Dados:
   - [Absolute or relative values?](http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html)
 - [￼RawGraphs](https://rawgraphs.io/): The missing link between spreadsheets and data visualization. [repo](https://github.com/rawgraphs/raw/)
 - [Panel GUI project for GSOC](https://github.com/intake/intake-gsoc-gui)
-
+- [AM I OVERTHINKING THIS?](https://www.michellerial.com/am-i-overthinking-this) Over-answering life’s questions in 101 charts
+- [Graphics That Seem Clear Can Easily Be Misread](https://www.scientificamerican.com/article/graphics-that-seem-clear-can-easily-be-misread/)
+- [Everyone’s Opinions About Your Dashboard](https://stephanieevergreen.com/everyones-opinions-about-your-dashboard/)
+  
 ### Cores
 
 - [Our understanding of rainbow color schemes remains incomplete](http://www.thefunctionalart.com/2019/06/our-understanding-of-rainbow-color.html)
@@ -181,7 +184,22 @@ Repositório de links e afins sobre Dados:
   - [NOAA ESRL CO2](ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_gl.txt)
   - [kishou.go.jp](https://gaw.kishou.go.jp/static/publications/global_mean_mole_fractions/2018/co2_monthly_20181122.csv)
 - [Tweet of the Climate 2018](https://twitter.com/micefearboggis/status/1138471910201856005)
-  
+- [Monitoramento do Desmatamento da Floresta Amazônica Brasileira por Satélite](http://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes)
+
+#### Queimadas na Amazônia
+
+- [Como Inventar uma Notícia Falsa](https://nadanovonofront.com/2019/08/22/tutorial-como-inventar-uma-noticia-falsa/)
+- [queimadas.dgi.inpe.br](http://queimadas.dgi.inpe.br/queimadas/bdqueimadas)
+- Área queimada por estado brasileiro:
+  - [Pedido 01390000195201922](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=731139&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [zip](Temas/DataBases/RESPOSTA_PEDIDO_area_queimada_1km_2018.zip)
+  - [Pedido 02680000305201953](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=732472&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [xls](Temas/DataBases/RESPOSTA_PEDIDO_E-sic Amaznia legal.xls) [pdf](Temas/DataBases/RESPOSTA_PEDIDO_SEI_02001.003711_2019_70.pdf)
+  - [Pedido 02680000103201910](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=728461&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [zip](Temas/DataBases/RESPOSTA_PEDIDO_Autos de infracao.zip)
+  - [Pedido 02680001380201931](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=770108&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [pdf](Temas/DataBases/PEDIDO_declarao de vnculo.pdf) [xls](Temas/DataBases/RESPOSTA_PEDIDO_AIs_Par_18062019.xlsx)
+  - [Pedido 02680001110201921](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=759273&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [xls](Temas/DataBases/RESPOSTA_PEDIDO_SIC_02680001110201921.xlsx)
+  - [Pedido 02680000582201966](http://www.consultaesic.cgu.gov.br/busca/dados/Lists/Pedido/Item/displayifs.aspx?List=0c839f31%2D47d7%2D4485%2Dab65%2Dab0cee9cf8fe&ID=746156&Web=88cc5f44%2D8cfe%2D4964%2D8ff4%2D376b5ebb3bef). local: [pdf](Temas/DataBases/RESPOSTA_PEDIDO_Execuo Inverso Financeira_Regularizao Fundiria.pdf) [pdf](Temas/DataBases/RESPOSTA_PEDIDO_EXECUO UGR 2008-2013.pdf) [pdf](Temas/DataBases/RESPOSTA_PEDIDO_EXECUO UGR 2014-2016.pdf) [pdf](Temas/DataBases/RESPOSTA_PEDIDO_EXECUO UGR 2017-2018.pdf)
+- [a visualization of global weather conditions forecast by supercomputers updated every three hours](https://earth.nullschool.net/#current/chem/surface/level/anim=off/overlay=cosc/orthographic=-61.40,-25.00,806)
+- [fires at globalforestwatch.org](http://fires.globalforestwatch.org/map/#activeLayers=viirsFires%2CactiveFires&activeBasemap=topo&activeImagery=&planetCategory=PLANET-MONTHLY&planetPeriod=null&x=-56.909180&y=-17.468906&z=5)
+
 ### Repositórios
 
 - [datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles): Versión en español del proyecto #tidytuesday
