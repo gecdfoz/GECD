@@ -1,6 +1,6 @@
 # Dados
 
-Repositório de links e afins sobre Grupo de Estudos Ciencia de Dados:
+Repositório do [Grupo de Estudos Ciencia de Dados](https://medialabfoz.com/gecd/).
 
 ## Diretórios
 

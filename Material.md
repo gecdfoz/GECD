@@ -48,6 +48,7 @@ Repositório de links e afins sobre Dados:
 - [AM I OVERTHINKING THIS?](https://www.michellerial.com/am-i-overthinking-this) Over-answering life’s questions in 101 charts
 - [Graphics That Seem Clear Can Easily Be Misread](https://www.scientificamerican.com/article/graphics-that-seem-clear-can-easily-be-misread/)
 - [Everyone’s Opinions About Your Dashboard](https://stephanieevergreen.com/everyones-opinions-about-your-dashboard/)
+- [Coping with Minard’s non-Euclidean cartography](https://dataanddragons.wordpress.com/2019/08/27/coping-with-minard/)
   
 ### Cores
 
@@ -94,6 +95,9 @@ Repositório de links e afins sobre Dados:
 - [excelR](https://github.com/Swechhya/excelR): An Interface to 'jExcel.js' Library
 - [Analyze Instagram with R](http://thinktostart.com/analyze-instagram-r/): This tutorial will show you how you create an Instagram app, create an authentication process with R and get data via the Instagram API.
 - [widyr](https://github.com/dgrtwo/widyr): Widen, process, and re-tidy a dataset.
+- [ggExtra](https://github.com/daattali/ggExtra): Add marginal histograms to ggplot2, and more ggplot2 enhancements. [demo](https://daattali.com/shiny/ggExtra-ggMarginal-demo/)
+- [arcos](https://wpinvestigative.github.io/arcos/): [The Washington Post published](https://www.washingtonpost.com/national/2019/07/20/opioid-files/) a significant portion of a database that tracks the path of every opioid pain pill, from manufacturer to pharmacy, in the United States between 2006 and 2012. We have reported a number of stories using this data set, [but we believe there are more stories to be told](https://github.com/wpinvestigative/arcos). [on cran](https://cran.r-project.org/web/packages/arcos/index.html)
+- [Big Data with R - Exercise book](https://rstudio.github.io/bigdataclass/index.html). github repo: [bigdataclass](https://github.com/rstudio/bigdataclass)
 
 #### Estilo de código
 
