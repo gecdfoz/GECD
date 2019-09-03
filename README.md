@@ -6,9 +6,9 @@ Repositório do [Grupo de Estudos Ciencia de Dados](https://medialabfoz.com/gecd
 
 * Aulas
   * 00 - 17/08: git
-  * 01 - 24/08: estatística básica
-  * 02 - 07/09: introdução ao python
-  * 03 - 21/09  
+  * 01 - 24/08: git - continuação
+  * 02 - 07/09: estatística básica
+  * 03 - 21/09: introdução ao python  
   * 04 - 28/09  
   * 05 - 12/10  
   * 06 - 09/11  
