@@ -1,25 +1,18 @@
 # Dados
 
-Repositório de links e afins sobre Dados:
+Repositório de links e afins sobre Ciência de Dados:
 
-## Diretórios
+## Outras listas
 
-- Estatística
-- Git
-- Python
-- R
-- Júlia
-- Jupyter
-- Raspagem de dados
-- LaTeX
+- [Data science blogs](https://github.com/rushter/data-science-blogs): A curated list of data science blogs
+- [Must-watch videos on Data Science](https://github.com/kmonsoor/data-must-watch): Must-watch videos on data-science
+- [Awesome Data Science with Python](https://github.com/r0f1/datascience): Curated list of Python resources for data science.
 
-## Links
-
-### Configuração
+## Configuração
 
 - [Jupyter and data science in Fedora](https://fedoramagazine.org/jupyter-and-data-science-in-fedora/)
 
-### Apresentação de Dados
+## Apresentação de Dados
 
 - [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
 - [Visdown - Markdown for Visualisation](https://visdown.com/)
@@ -49,37 +42,41 @@ Repositório de links e afins sobre Dados:
 - [Graphics That Seem Clear Can Easily Be Misread](https://www.scientificamerican.com/article/graphics-that-seem-clear-can-easily-be-misread/)
 - [Everyone’s Opinions About Your Dashboard](https://stephanieevergreen.com/everyones-opinions-about-your-dashboard/)
 - [Coping with Minard’s non-Euclidean cartography](https://dataanddragons.wordpress.com/2019/08/27/coping-with-minard/)
+- [Shirley Wu](https://www.thelovelyferns.com/thank-you-shirley-wu/), one half of the popular Data Sketches project, creates highly interactive, beautiful data visualizations. Here, she gives us a look behind the scenes and shares the lessons she’s learned.
+- [Beautiful](http://www.beautifulinenglish.com/) is the most common word translated to English with Google
+- [NYT-style urban heat island maps](https://www.katiejolly.io/blog/2019-08-28/nyt-urban-heat): One of my favorite strategies for learning more about data visualization is to try to recreate other work. This is especially true for maps! I recently came across a New York Times article called Summer in the City Is Hot, but Some Neighborhoods Suffer More by Nadja Popovich and Christopher Flavelle.
   
-### Cores
+## Cores
 
 - [Our understanding of rainbow color schemes remains incomplete](http://www.thefunctionalart.com/2019/06/our-understanding-of-rainbow-color.html)
 
-### Trabalhando com Dados
+## Trabalhando com Dados
 
 - [How to Make Data-Driven Visual Essays](https://kottke.org/19/04/how-to-make-data-driven-visual-essays)
   - How to Make Dope Shit, Part 1: [Working with Data](https://pudding.cool/process/how-to-make-dope-shit-part-1/)
   - How to Make Dope Shit, Part 2: [Design](https://pudding.cool/process/how-to-make-dope-shit-part-2/)
 - [First M87 Event Horizon Telescope Results. III. Data Processing and Calibration - IOPscience](https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57)
 
-### Dados Geográficos
+## Dados Geográficos
 
 - [Flow maps in QGIS – no plugins needed!](https://anitagraser.com/2019/05/04/flow-maps-in-qgis-no-plugins-needed/)
 - [Visualization of wolf pack territoriality based on 68,000 GPS-locations over a 7 month period [OC]. : dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/biel6f/visualization_of_wolf_pack_territoriality_based/)
 - [Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 - [Comparing OpenStreetMap and Wikidata](https://janakiev.com/slides/wikidata-openstreetmap/) by Nikolai Janakiev
 
-### Estatística
+## Estatística
 
 - [Logistic Regression · UC Business Analytics R Programming Guide](https://uc-r.github.io/logistic_regression)
 - Statistics and Data Science with R: [Complete Course](https://statslectures.com/r-stats-videos-tutorials)
 - [Statistical Rethinking](https://github.com/rmcelreath/statrethinking_winter2019): A Bayesian Course Using R and Stan
+- [What Statistics Can and Can’t Tell Us About Ourselves](https://www.newyorker.com/magazine/2019/09/09/what-statistics-can-and-cant-tell-us-about-ourselves)
 
-### Interatividade
+## Interatividade
 
 - [How to Turn Your ggplot2 Visualization into an Interactive Tweet » The Datatitian](https://datatitian.com/how-to-turn-your-ggplot2-visualization-into-an-interactive-tweet/)
 - [XrViz](https://github.com/intake/xrviz): [An interactive visualisation interface for Xarrays](https://levelup.gitconnected.com/xrviz-an-interactive-visualisation-interface-for-xarrays-9ecf8e325aa9?gi=3875f15a2a7)
 
-### Linguagem R
+## Linguagem R
 
 - [rOpenSci Packages](https://ropensci.github.io/dev_guide/): Development, Maintenance, and Peer Review
 - [Análise de Redes Sociais no R (1/3)](https://www.youtube.com/watch?v=7W-dvk6GupA&list=PLKLmseeuB7Uy-3jX7YkPvnKEBce2PGbU_)
@@ -98,14 +95,16 @@ Repositório de links e afins sobre Dados:
 - [ggExtra](https://github.com/daattali/ggExtra): Add marginal histograms to ggplot2, and more ggplot2 enhancements. [demo](https://daattali.com/shiny/ggExtra-ggMarginal-demo/)
 - [arcos](https://wpinvestigative.github.io/arcos/): [The Washington Post published](https://www.washingtonpost.com/national/2019/07/20/opioid-files/) a significant portion of a database that tracks the path of every opioid pain pill, from manufacturer to pharmacy, in the United States between 2006 and 2012. We have reported a number of stories using this data set, [but we believe there are more stories to be told](https://github.com/wpinvestigative/arcos). [on cran](https://cran.r-project.org/web/packages/arcos/index.html)
 - [Big Data with R - Exercise book](https://rstudio.github.io/bigdataclass/index.html). github repo: [bigdataclass](https://github.com/rstudio/bigdataclass)
+- [So, how come we can use TensorFlow from R?](https://blogs.rstudio.com/tensorflow/posts/2019-08-29-using-tf-from-r/)
+- [Hospital Standardised Mortality Ratios](https://github.com/NHS-NSS-transforming-publications/hsmr): Reproducible Analytical Pipeline of the Hospital Standardised Mortality Ratio (HSMR) quarterly publication
 
-#### Estilo de código
+### Estilo de código
 
 - [Style guide](http://adv-r.had.co.nz/Style.html): Good coding style is like using correct punctuation. You can manage without it, but it sure makes things easier to read. As with styles of punctuation, there are many possible variations.
 - [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml):The goal of the R Programming Style Guide is to make our R code easier to read, share, and verify. The rules below were designed in collaboration with the entire R user community at Google.
 - [formatR](https://yihui.name/formatr/).
 
-#### Tutoriais
+### Tutoriais
 
 - [RStudio Tutorial – How to Import & Transform Data?](https://data-flair.training/blogs/rstudio-tutorial/)
 - [Basic Data Analysis through R/R Studio](http://web.cs.ucla.edu/~gulzar/rstudio/basic-tutorial.html)
@@ -118,19 +117,19 @@ Repositório de links e afins sobre Dados:
   - [petR](https://github.com/pedrocava/petR): Curso de R para o PET da Economia da UFF. Aulas e Material do Workshop de R com o PET da Faculdade de Economia da UFF.
 - [Workshop sobre criação de workflows no workbench para exploração de dados](https://docs.google.com/presentation/d/e/2PACX-1vRhkHlPcCpw6TwFk8D5kcvRX1PQ4KWkOUtxACqOf_WcHG6JVzd1YUYAATBz3oQpKAxbSCyx6OAVvOf2/pub?start=false&loop=false&delayms=3000#slide=id.p)
 
-### Modelos
+## Modelos
 
 - [OSF | ShareSEM: Example and Template R Scripts for Lavaan, Blavaan, and More](https://osf.io/nh2mb/)
 - [BOOKDOWN](https://bookdown.org/)
 
-### Machine Learning
+## Machine Learning
 
 - [3 Machine Learning Books that Helped me Level Up](http://www.datastuff.tech/data-science/3-machine-learning-books-that-helped-me-level-up-as-a-data-scientist/)
 - [Videos – Machine Behavior](https://machinebehavior.org/videos/)
 - [Neural Network Models in R](https://www.datacamp.com/community/tutorials/neural-network-models-r)
 - [Predictive Analytics using Machine Learning](https://www.datacamp.com/community/tutorials/predictive-analytics-machine-learning)
 
-### Raspagem de Dados
+## Raspagem de Dados
 
 - [Script para tirar série história de BOs do Estado de SP (fonte: SSPSP)](https://gist.github.com/voltdatalab/0bc390e674548b9b66c4d4cf9cdb6e2f)
 - [World Cup in six lines of Python 3. Jogos da Copa do Mundo em cinco linhas de Python 3.](https://gist.github.com/fmasanori/1288160dad16cc473a53)
@@ -138,22 +137,22 @@ Repositório de links e afins sobre Dados:
 - [Construindo um robô monitor de Twitter](https://docs.google.com/presentation/d/e/2PACX-1vQ4fBn3y0pKVBMYfctLJAjG1sbXX4dXiOH9cZ2izHHAralSPJbadn2CZkFgjlij2n7KQZcQFJW6q1p2/pub?start=false&loop=false&delayms=3000#slide=id.g35f391192_00)
 - [Find hidden friends and communities for any Facebook user](https://techblog.mediaservice.net/2019/05/find-hidden-friends-and-community-for-any-facebook-user/), [FFFF Finds Facebook Friends](https://github.com/sowdust/ffff). [example](https://www.mediaservice.net/upload919/ffff-graph/)
 
-### Cursos
+## Cursos
 
 - [Data Science | University of London](https://london.ac.uk/courses/data-science-msc)
 - [Curso de Análise de Dados Públicos PyLadies São Paulo](https://github.com/fmasanori/CursoPyLadiesSP)
 - [Ciência de Dados](http://www.pucrs.br/politecnica/cursos/ciencia-de-dados/) - pós graduação na puc-pr
 
-#### Palestras
+### Palestras
 
 - [realworldscicomp](https://github.com/melissawm/realworldscicomp): Palestra "De Fortran a Julia: Computação Científica no Mundo Real".
 - [Dados abertos, Python e PostgreSQL: a combinação perfeita](http://turicas.info/slides/brasil.io/pgconfbr/)
 
-### Geo
+## Geo
 
 - [geobr](https://github.com/ipeaGIT/geobr): Easy access to shapefiles of the Brazilian Institute of Geography and Statistics (IBGE) and other official spatial data sets of Brazil.
 
-### Bases de Dados
+## Bases de Dados
 
 - [World Bank Data](https://datahub.io/collections/world-bank): The World Bank has a wide array of high quality data and much of it is open data. It covers several distinct collections and databases.
 - WorldBank [Gender Stats](https://datacatalog.worldbank.org/dataset/gender-statistics): The Gender Statistics database is a comprehensive source for the latest sex-disaggregated data and gender statistics covering demography, education, health, access to economic opportunities, public life and decision-making, and agency.
@@ -166,7 +165,7 @@ Repositório de links e afins sobre Dados:
 - [leis-brasileiras](https://github.com/MinisterioPublicoRJ/leis-brasileiras): Scripts para baixar de forma automatizada as leis brasileiras disponíveis em sites de órgãos do governo.
 - [The Antarctic Iceberg Tracking Database](https://www.scp.byu.edu/data/iceberg/)
   
-#### Mudanças Climáticas
+### Mudanças Climáticas
 
 - [Anual Climate temperatures](http://www-users.york.ac.uk/~kdc3/papers/coverage2013/had4_krig_annual_v2_0_0.txt)
 - [Berkeley Earth](http://berkeleyearth.lbl.gov/auto/Global/Land_and_Ocean_complete.txt): This file contains a detailed summary of the changes in Earth's global average surface temperature estimated by combining the Berkeley Earth land-surface temperature field with a reinterpolated version of the HadSST ocean temperature field.
@@ -190,7 +189,7 @@ Repositório de links e afins sobre Dados:
 - [Tweet of the Climate 2018](https://twitter.com/micefearboggis/status/1138471910201856005)
 - [Monitoramento do Desmatamento da Floresta Amazônica Brasileira por Satélite](http://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes)
 
-#### Queimadas na Amazônia
+### Queimadas na Amazônia
 
 - [Como Inventar uma Notícia Falsa](https://nadanovonofront.com/2019/08/22/tutorial-como-inventar-uma-noticia-falsa/)
 - [queimadas.dgi.inpe.br](http://queimadas.dgi.inpe.br/queimadas/bdqueimadas)
@@ -204,7 +203,7 @@ Repositório de links e afins sobre Dados:
 - [a visualization of global weather conditions forecast by supercomputers updated every three hours](https://earth.nullschool.net/#current/chem/surface/level/anim=off/overlay=cosc/orthographic=-61.40,-25.00,806)
 - [fires at globalforestwatch.org](http://fires.globalforestwatch.org/map/#activeLayers=viirsFires%2CactiveFires&activeBasemap=topo&activeImagery=&planetCategory=PLANET-MONTHLY&planetPeriod=null&x=-56.909180&y=-17.468906&z=5)
 
-### Repositórios
+## Repositórios
 
 - [datos-de-miercoles](https://github.com/cienciadedatos/datos-de-miercoles): Versión en español del proyecto #tidytuesday
 - [another book on data science](https://github.com/rnorm/book_sample)
@@ -217,7 +216,7 @@ Repositório de links e afins sobre Dados:
 - [Data-Science](https://github.com/paulinhacnn/Data-Science) -  Toda semana um novo material estará disponível para guiar no estudo de ciência de dados =)
 - [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
 
-### Assuntos Gerais
+## Assuntos Gerais
 
 - [Lnews](https://www.labcomdata.com.br/)
 - [Que tal organizar um ‘Cerveja com Dados’ em sua cidade? – Escola de Dados](https://escoladedados.org/2018/02/que-tal-organizar-um-cerveja-com-dados-em-sua-cidade/)
@@ -225,7 +224,7 @@ Repositório de links e afins sobre Dados:
 - [Big Data Brasil Day 2019 rola nos dias 2 a 5 de maio](http://tutano.trampos.co/20800-big-data-brasil-day-2019/)
 - [2019 Women in Tech Report](https://research.hackerrank.com/women-in-tech/2019)
 
-#### Exemplos
+### Exemplos
 
 - [Maps Mania: Plastic Polluted River & Oceans](http://googlemapsmania.blogspot.com/2019/04/plastic-polluted-river-oceans.html)
 - [What's Really Warming the World? Climate deniers blame natural factors; NASA data proves otherwise](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
@@ -238,21 +237,21 @@ Repositório de links e afins sobre Dados:
 - [Conteúdos mais acessados pelos Iguaçuenses](https://medialabfoz.com/2019/06/28/top10primeiraquinzena/) – período 28/05 até 10/06. By MediaLAB FOZ
 - [After Sandy Hook, we said never again. And then we let 2184 mass shootings happen.](https://www.vox.com/a/mass-shootings-america-sandy-hook-gun-violence)
 
-#### Copyleft
+### Copyleft
 
 - [CopyLeft Argentina](https://vialibre.org.ar/arcopy.pdf)
 
-#### Bacana
+### Bacana
 
 - [The Effects of Peanut Butter on the Rotation of the Earth](https://improbable.com/airchives/classical/articles/peanut_butter_rotation.html)
 - Amy Cesal on Twitter: ["When you're marrying the human you met while collaborating on #dataviz together, you're basically required to collaborate on some viz for the wedding, right?"](https://twitter.com/AmyCesal/status/1118858416691273730)
 - Daniel Bolnick on Twitter: [Predicted # of deaths in Season 8 #GameofThrones](https://twitter.com/DanielBolnick/status/1115319449945628673) -: 1276. Based on a log-linear regression from seasons 1-7 (t = 7.1, P = 0.0009), using data..
 
-#### Pesquisa
+### Pesquisa
 
 - [Ten simple rules towards healthier research labs](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006914)
 
-#### Livros
+### Livros
 
 - [Political Analysis Using R](https://www.springer.com/us/book/9783319234458)
 - [R for Data Science](https://r4ds.had.co.nz/)
@@ -261,6 +260,6 @@ Repositório de links e afins sobre Dados:
 - [Fundamentals of Data Visualization](https://b-ok.org/book/4990677/8126d3): A Primer on Making Informative and Compelling Figures.
 - [The Data Engineering Cookbook](https://github.com/andkret/Cookbook)
 
-### Fun
+## Fun
 
 - [Google Sheets Formula Clock](https://www.benlcollins.com/spreadsheets/google-sheets-formula-clock/)
