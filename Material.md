@@ -45,6 +45,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Shirley Wu](https://www.thelovelyferns.com/thank-you-shirley-wu/), one half of the popular Data Sketches project, creates highly interactive, beautiful data visualizations. Here, she gives us a look behind the scenes and shares the lessons she’s learned.
 - [Beautiful](http://www.beautifulinenglish.com/) is the most common word translated to English with Google
 - [NYT-style urban heat island maps](https://www.katiejolly.io/blog/2019-08-28/nyt-urban-heat): One of my favorite strategies for learning more about data visualization is to try to recreate other work. This is especially true for maps! I recently came across a New York Times article called Summer in the City Is Hot, but Some Neighborhoods Suffer More by Nadja Popovich and Christopher Flavelle.
+- [How to Get Better at Embracing Unknowns](https://www.scientificamerican.com/article/how-to-get-better-at-embracing-unknowns/)- Interpreting uncertainty through data visualizations
   
 ## Cores
 
