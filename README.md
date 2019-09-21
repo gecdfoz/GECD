@@ -9,7 +9,7 @@ Repositório do [Grupo de Estudos Ciencia de Dados](https://medialabfoz.com/gecd
   * 01 - 24/08: Github
   * 02 - 07/09: Introdução de estatística descritiva
   * 03 - 21/09: Introdução de python
-  * 04 - 12/09: Introdução de R
+  * 04 - 12/10: Introdução de R
   * 05 - 19/10: Introdução de Jupyter 
   * 06 - 09/11: Exercícios
   * 07 - 23/11: Introdução de WebScraping
