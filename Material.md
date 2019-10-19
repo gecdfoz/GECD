@@ -7,6 +7,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Data science blogs](https://github.com/rushter/data-science-blogs): A curated list of data science blogs
 - [Must-watch videos on Data Science](https://github.com/kmonsoor/data-must-watch): Must-watch videos on data-science
 - [Awesome Data Science with Python](https://github.com/r0f1/datascience): Curated list of Python resources for data science.
+- [Laboratório Analytics](https://github.com/analytics-ufcg): Formar cientistas de dados. Desenvolver projetos que partem da análise de dados para criar impacto social e oportunidades de negócio. Se divertir no processo.
 
 ## Configuração
 
@@ -64,6 +65,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Visualization of wolf pack territoriality based on 68,000 GPS-locations over a 7 month period [OC]. : dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/comments/biel6f/visualization_of_wolf_pack_territoriality_based/)
 - [Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 - [Comparing OpenStreetMap and Wikidata](https://janakiev.com/slides/wikidata-openstreetmap/) by Nikolai Janakiev
+- (pt-br) [geojournalism.org](https://geojournalism.org/pt/) - As melhores ferramentas para reportagem multimídiageojournalism.org
 
 ## Estatística
 
