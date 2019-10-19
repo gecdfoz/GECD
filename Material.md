@@ -36,6 +36,9 @@ Repositório de links e afins sobre Ciência de Dados:
   - [Let's design more explanation graphics](http://www.thefunctionalart.com/2019/07/lets-design-more-explanation-graphics.html): but let's edit them more tightly
   - [Mapping diversity and taking probability and base rates into account](http://www.thefunctionalart.com/2019/07/mapping-diversity-and-taking.html)
   - [Absolute or relative values?](http://www.thefunctionalart.com/2019/07/absolute-or-relative-values.html)
+  - ['How Charts Lie': a few corrections to the first print edition](http://www.thefunctionalart.com/2019/10/how-charts-lie-few-corrections.html)
+  - [Politico visualizes 'The Dis-United States of Cannabis'](http://www.thefunctionalart.com/2019/10/politico-visualizes-dis-united-states.html)
+  - [A dubious chart that confuses bias with trustworthiness](http://www.thefunctionalart.com/2019/10/a-bad-chart-that-confuses-bias-with.html)
 - [￼RawGraphs](https://rawgraphs.io/): The missing link between spreadsheets and data visualization. [repo](https://github.com/rawgraphs/raw/)
 - [Panel GUI project for GSOC](https://github.com/intake/intake-gsoc-gui)
 - [AM I OVERTHINKING THIS?](https://www.michellerial.com/am-i-overthinking-this) Over-answering life’s questions in 101 charts
@@ -46,7 +49,10 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Beautiful](http://www.beautifulinenglish.com/) is the most common word translated to English with Google
 - [NYT-style urban heat island maps](https://www.katiejolly.io/blog/2019-08-28/nyt-urban-heat): One of my favorite strategies for learning more about data visualization is to try to recreate other work. This is especially true for maps! I recently came across a New York Times article called Summer in the City Is Hot, but Some Neighborhoods Suffer More by Nadja Popovich and Christopher Flavelle.
 - [How to Get Better at Embracing Unknowns](https://www.scientificamerican.com/article/how-to-get-better-at-embracing-unknowns/)- Interpreting uncertainty through data visualizations
-  
+- [Why Budapest, Warsaw and Lithuania split themselves in two - the making of](http://www.maartenlambrechts.com/2019/09/04/splitting-EU-regions-making-of.html)
+- How to create data-driven presentations with jupyter notebooks, reveal.js, host on github, and show it to the world: [Part I — make a basic slide deck](https://towardsdatascience.com/how-to-create-data-driven-presentations-with-jupyter-notebooks-reveal-js-e7a42a1fb7d7)
+- [MapReverse](https://geotxt.geog.psu.edu/MapReverse/MapGallery.html) is a project prototype built by Xi Zhu and Anthony Robinson at the GeoVISTA Center in the Department of Geography at Penn State University. MapReverse is designed to help explore maps shared in social media to uncover their potential sources and derivatives.
+
 ## Cores
 
 - [Our understanding of rainbow color schemes remains incomplete](http://www.thefunctionalart.com/2019/06/our-understanding-of-rainbow-color.html)
@@ -98,6 +104,11 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Big Data with R - Exercise book](https://rstudio.github.io/bigdataclass/index.html). github repo: [bigdataclass](https://github.com/rstudio/bigdataclass)
 - [So, how come we can use TensorFlow from R?](https://blogs.rstudio.com/tensorflow/posts/2019-08-29-using-tf-from-r/)
 - [Hospital Standardised Mortality Ratios](https://github.com/NHS-NSS-transforming-publications/hsmr): Reproducible Analytical Pipeline of the Hospital Standardised Mortality Ratio (HSMR) quarterly publication
+- [details](https://github.com/yonicd/details): R Package to Create Details HTML Tag for Markdown and Package Documentation
+- [A Graphical Introduction to tidyr's pivot_*()](https://speakerdeck.com/yutannihilation/a-graphical-introduction-to-tidyrs-pivot-star) by Hiroaki Yuatani.
+- [pivoting](https://tidyr.tidyverse.org/articles/pivot.html)
+- [RVerbalExpressions](https://github.com/VerbalExpressions/RVerbalExpressions): 👷💬 Create regular expressions easilt. [RVerbalExpressions](https://rverbalexpressions.netlify.com/index.html): The goal of RVerbalExpressions is to make it easier to construct regular expressions using grammar and functionality inspired by VerbalExpressions.
+- [performance](https://github.com/easystats/performance): 💪 Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)
 
 ### Estilo de código
 
@@ -118,6 +129,13 @@ Repositório de links e afins sobre Ciência de Dados:
   - [petR](https://github.com/pedrocava/petR): Curso de R para o PET da Economia da UFF. Aulas e Material do Workshop de R com o PET da Faculdade de Economia da UFF.
 - [Workshop sobre criação de workflows no workbench para exploração de dados](https://docs.google.com/presentation/d/e/2PACX-1vRhkHlPcCpw6TwFk8D5kcvRX1PQ4KWkOUtxACqOf_WcHG6JVzd1YUYAATBz3oQpKAxbSCyx6OAVvOf2/pub?start=false&loop=false&delayms=3000#slide=id.p)
 
+## Jupyter
+
+- Jupyter Notebook for Beginners: [A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+- [Interactive Parallel Computing with IPython](https://github.com/ipython/ipyparallel)
+- [Jupyter Notebook on Fedora with official packages and SSL](https://avi.alkalay.net/2018/07/fedora-jupyter-notebook.html)
+
 ## Modelos
 
 - [OSF | ShareSEM: Example and Template R Scripts for Lavaan, Blavaan, and More](https://osf.io/nh2mb/)
@@ -137,6 +155,9 @@ Repositório de links e afins sobre Ciência de Dados:
 - [tweeter Hashtag grabber](https://gist.github.com/cuducos/08f7051ae7066d36bc5ff5803d2bf46f)
 - [Construindo um robô monitor de Twitter](https://docs.google.com/presentation/d/e/2PACX-1vQ4fBn3y0pKVBMYfctLJAjG1sbXX4dXiOH9cZ2izHHAralSPJbadn2CZkFgjlij2n7KQZcQFJW6q1p2/pub?start=false&loop=false&delayms=3000#slide=id.g35f391192_00)
 - [Find hidden friends and communities for any Facebook user](https://techblog.mediaservice.net/2019/05/find-hidden-friends-and-community-for-any-facebook-user/), [FFFF Finds Facebook Friends](https://github.com/sowdust/ffff). [example](https://www.mediaservice.net/upload919/ffff-graph/)
+- [How to scrape websites with Python and BeautifulSoup](https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/)
+- [Scraping Dynamic Javascript Text](https://pythonprogramming.net/javascript-dynamic-scraping-parsing-beautiful-soup-tutorial/)
+- [Spider](https://tryspider.com/)
 
 ## Cursos
 
@@ -165,7 +186,8 @@ Repositório de links e afins sobre Ciência de Dados:
 - [mapa da violência de gênero](https://mapadaviolenciadegenero.com.br/downloads/)
 - [leis-brasileiras](https://github.com/MinisterioPublicoRJ/leis-brasileiras): Scripts para baixar de forma automatizada as leis brasileiras disponíveis em sites de órgãos do governo.
 - [The Antarctic Iceberg Tracking Database](https://www.scp.byu.edu/data/iceberg/)
-  
+- [CEPESP DATA](http://cepespdata.io/): O Centro de Política e Economia do Setor Público (CEPESP) da Fundação Getulio Vargas (FGV) disponibiliza uma série de bases de dados eleitorais pesquisáveis, o CepespData.
+
 ### Mudanças Climáticas
 
 - [Anual Climate temperatures](http://www-users.york.ac.uk/~kdc3/papers/coverage2013/had4_krig_annual_v2_0_0.txt)
@@ -224,6 +246,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [O que aprendi no Malofiej 27 – datavizbr](https://medium.com/datavizbr/o-que-aprendi-no-malofiej-27-6ca575b8ae3c)
 - [Big Data Brasil Day 2019 rola nos dias 2 a 5 de maio](http://tutano.trampos.co/20800-big-data-brasil-day-2019/)
 - [2019 Women in Tech Report](https://research.hackerrank.com/women-in-tech/2019)
+- [pivigo](https://www.pivigo.com/): Creating global opportunities with Data Science
 
 ### Exemplos
 
