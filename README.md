@@ -11,9 +11,9 @@ Repositório do [Grupo de Estudos Ciencia de Dados](https://medialabfoz.com/gecd
   * 03 - 21/09: Introdução de python
   * 04 - 12/10: Introdução de R
   * 05 - 19/10: Introdução de Jupyter 
-  * 06 - 09/11: Exercícios
-  * 07 - 23/11: Introdução de WebScraping
-  * 08 - ?????: Exercícios de fechamento
+  * 06 - 09/11: Introdução de WebScraping
+  * 07 - 23/11: Exercícios
+  * 08 - 06/12: Apresentações de fechamento no BARRRRR
   
 * Temas
   * Estatística
