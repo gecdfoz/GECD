@@ -40,6 +40,7 @@ Repositório de links e afins sobre Ciência de Dados:
   - ['How Charts Lie': a few corrections to the first print edition](http://www.thefunctionalart.com/2019/10/how-charts-lie-few-corrections.html)
   - [Politico visualizes 'The Dis-United States of Cannabis'](http://www.thefunctionalart.com/2019/10/politico-visualizes-dis-united-states.html)
   - [A dubious chart that confuses bias with trustworthiness](http://www.thefunctionalart.com/2019/10/a-bad-chart-that-confuses-bias-with.html)
+  - [Visualizing personal notes on the history of Western Philosophy](http://www.thefunctionalart.com/2019/10/visualizing-personal-notes-on-history.html)
 - [￼RawGraphs](https://rawgraphs.io/): The missing link between spreadsheets and data visualization. [repo](https://github.com/rawgraphs/raw/)
 - [Panel GUI project for GSOC](https://github.com/intake/intake-gsoc-gui)
 - [AM I OVERTHINKING THIS?](https://www.michellerial.com/am-i-overthinking-this) Over-answering life’s questions in 101 charts
@@ -111,7 +112,9 @@ Repositório de links e afins sobre Ciência de Dados:
 - [pivoting](https://tidyr.tidyverse.org/articles/pivot.html)
 - [RVerbalExpressions](https://github.com/VerbalExpressions/RVerbalExpressions): 👷💬 Create regular expressions easilt. [RVerbalExpressions](https://rverbalexpressions.netlify.com/index.html): The goal of RVerbalExpressions is to make it easier to construct regular expressions using grammar and functionality inspired by VerbalExpressions.
 - [performance](https://github.com/easystats/performance): 💪 Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)
-
+- [vosonSML](https://github.com/vosonlab/vosonSML): R package for collecting social media data and creating networks for analysis.
+- [correlation](https://github.com/easystats/correlation): Easy peasy correlations
+  
 ### Estilo de código
 
 - [Style guide](http://adv-r.had.co.nz/Style.html): Good coding style is like using correct punctuation. You can manage without it, but it sure makes things easier to read. As with styles of punctuation, there are many possible variations.
@@ -160,6 +163,10 @@ Repositório de links e afins sobre Ciência de Dados:
 - [How to scrape websites with Python and BeautifulSoup](https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/)
 - [Scraping Dynamic Javascript Text](https://pythonprogramming.net/javascript-dynamic-scraping-parsing-beautiful-soup-tutorial/)
 - [Spider](https://tryspider.com/)
+- [A Guide to Web Scraping in Python using BeautifulSoup](https://dev.to/ayushsharma/a-guide-to-web-scraping-in-python-using-beautifulsoup-1kgo)
+- [Avoiding Webscraping Throttling Using Python and Tor as a Proxy](https://boredhacking.com/tor-webscraping-proxy/)
+- [Selenium](http://pythonclub.com.br/selenium-parte-1.html) - O que você deveria saber - Parte 1
+- [Scrapyrt](https://github.com/scrapinghub/scrapyrt)- (Scrapy realtime)
 
 ## Cursos
 
