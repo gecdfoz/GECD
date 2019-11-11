@@ -167,6 +167,21 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Avoiding Webscraping Throttling Using Python and Tor as a Proxy](https://boredhacking.com/tor-webscraping-proxy/)
 - [Selenium](http://pythonclub.com.br/selenium-parte-1.html) - O que você deveria saber - Parte 1
 - [Scrapyrt](https://github.com/scrapinghub/scrapyrt)- (Scrapy realtime)
+- [How to fake and rotate User Agents using Python 3](https://www.scrapehero.com/how-to-fake-and-rotate-user-agents-using-python-3/): como alterar o user-agent (identificação que o navegador manda pra o site), para mudar alguns sites que bloqueiam _scripts_.
+- Vários exemplos do prof. Fernando Massanori:
+  - [script que pega os jogos da copa](https://gist.github.com/fmasanori/a428ef783211b0ffdee1).
+  - [QEdu Exemplo de Busca Avançada: escolas, em funcionamento, sem energia, água e esgoto](https://gist.github.com/fmasanori/fc0e98c8c486be80d5a5).
+  - [Hackeando Dados públicos com python](https://pt.slideshare.net/fmasanori/dados-pblicos-com-python).
+- [python-scraping](https://github.com/REMitchell/python-scraping): Code samples from the book Web Scraping with Python, by [Ryan Mitchell](http://pythonscraping.com/).
+  - Exemplo Basico: [Page 1](http://www.pythonscraping.com/pages/page1.html)
+  - Exemplo Guerra e Paz (Vermelho e Verde): [War and Peace](http://www.pythonscraping.com/pages/warandpeace.html)
+  - Exemplo de listagem de produtos: [Totally Normal Gifts](http://www.pythonscraping.com/pages/page3.html)
+- [OMDb API](http://www.omdbapi.com/): The OMDb API is a RESTful web service to obtain movie information, all content and images on the site are contributed and maintained by our users.
+- [How To Scrape Web Pages with Beautiful Soup and Python 3](https://www.digitalocean.com/community/tutorials/how-to-scrape-web-pages-with-beautiful-soup-and-python-3).
+- [Web scraping in python](https://www.slideshare.net/TheVirendraRajput/web-scraping-in-python)
+- [Web Scraping HTML Tables with Python](https://towardsdatascience.com/web-scraping-html-tables-with-python-c9baba21059)
+- Sites para testes de raspagem de dados:
+  - [Complete Pokémon Pokédex](https://pokemondb.net/pokedex/all)
 
 ## Cursos
 
