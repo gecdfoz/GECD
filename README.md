@@ -70,6 +70,15 @@ _OS DEMAIS ENCONTROS ESTARÃO BASEADOS NOS DESAFIOS._
 
 *Obs:* Existe a possibilidade de alterações no calendário e também de atividades em dias não-planejados. 
 
+## Organizadores:
+
+Jacson Querubin 
+Lucas Nathan Barbosa de Oliveira
+Marília Melo Favalesso
+Ramon Fernandes Lourenço
+Fabiano Neumann
+Giovane Leite
+
 ## Contato:
 gecdfozdoiguacu@gmail.com 
 
