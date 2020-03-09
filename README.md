@@ -73,10 +73,15 @@ _OS DEMAIS ENCONTROS ESTARÃO BASEADOS NOS DESAFIOS._
 ## Organizadores:
 
 Jacson Querubin 
+
 Lucas Nathan Barbosa de Oliveira
+
 Marília Melo Favalesso
+
 Ramon Fernandes Lourenço
+
 Fabiano Neumann
+
 Giovane Leite
 
 ## Contato:
