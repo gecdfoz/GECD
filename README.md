@@ -54,7 +54,26 @@ Na primeira parte serão passados os conhecimentos básicos que integram o mundo
 
 _OS DEMAIS ENCONTROS ESTARÃO BASEADOS NOS DESAFIOS._
 
+## Calendário 2020.1:
+
+### Parte I: Integração/nivelamento.
+
+#### Encontro I - Apresentação. 28/03/2020: 09h - 12h
+#### Encontro II - Introdução ao mundo dos dados (estatística básica). 04/04/2020: 09h-12h | 14h-17h
+#### Encontro III - Introdução a programação com o Python. 18/04/2020: 09h-12h | 14h-17h
+#### Encontro IV - Aprendendo a controlar versões com o Git e GitHub.09/05/2020: 09h-12h | 14h-17h
+
+###  Parte II: Práticas com ciência de dados. 
+
+#### Encontro V - Desafios em Ciência de Dados. 16/05/2020: 09h-12h | 14h-17h
+#### Encontro VI - Desafios em Ciência de Dados. 30/05/2020: 09h-12h | 14h-17h
+
+*Obs:* Existe a possibilidade de alterações no calendário e também de atividades em dias não-planejados. 
+
+## Contato:
+gecdfozdoiguacu@gmail.com 
 
 ## Links
 
 [Materiais e links complementares](Material.md)
+
