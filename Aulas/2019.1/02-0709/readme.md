@@ -1,1 +1,1 @@
-# Introdução ao Python
+# Introdução a estatística. 
