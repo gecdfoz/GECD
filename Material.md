@@ -133,6 +133,7 @@ Repositório de links e afins sobre Ciência de Dados:
   - [Quantitative Social Science](http://qss.princeton.press/), by Kosuke Imai [materiais](http://qss.princeton.press/student-resources-for-quantitative-social-science/) [mais](http://gen.lib.rus.ec/book/index.php?md5=11D86C0E1D9F653266D2824B17E7DECC)
   - [petR](https://github.com/pedrocava/petR): Curso de R para o PET da Economia da UFF. Aulas e Material do Workshop de R com o PET da Faculdade de Economia da UFF.
 - [Workshop sobre criação de workflows no workbench para exploração de dados](https://docs.google.com/presentation/d/e/2PACX-1vRhkHlPcCpw6TwFk8D5kcvRX1PQ4KWkOUtxACqOf_WcHG6JVzd1YUYAATBz3oQpKAxbSCyx6OAVvOf2/pub?start=false&loop=false&delayms=3000#slide=id.p)
+- [Python para Zumbis](https://www.youtube.com/playlist?list=PLUukMN0DTKCtbzhbYe2jdF4cr8MOWClXc)
 
 ## Jupyter
 
