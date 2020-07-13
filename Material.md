@@ -54,6 +54,9 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Why Budapest, Warsaw and Lithuania split themselves in two - the making of](http://www.maartenlambrechts.com/2019/09/04/splitting-EU-regions-making-of.html)
 - How to create data-driven presentations with jupyter notebooks, reveal.js, host on github, and show it to the world: [Part I — make a basic slide deck](https://towardsdatascience.com/how-to-create-data-driven-presentations-with-jupyter-notebooks-reveal-js-e7a42a1fb7d7)
 - [MapReverse](https://geotxt.geog.psu.edu/MapReverse/MapGallery.html) is a project prototype built by Xi Zhu and Anthony Robinson at the GeoVISTA Center in the Department of Geography at Penn State University. MapReverse is designed to help explore maps shared in social media to uncover their potential sources and derivatives.
+- [Weekly inspirations #16](https://blog.smallmultiples.com.au/2019/10/18/weekly-inspirations-16/) – Information is Beautiful shortlist 2019
+- [The minimum wage is $11+ in New York State. Across the border in Pennsylvania, it's still just $7.25.](https://twitter.com/bencasselman/status/1194624093762535425).
+- [Wonderful animation visualises the speed of sound in various ways.](https://twitter.com/simongerman600/status/1194597126803771392)
 
 ## Cores
 
@@ -73,6 +76,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Logistic Regression from Bayes' Theorem](https://www.countbayesie.com/blog/2019/6/12/logistic-regression-from-bayes-theorem)
 - [Comparing OpenStreetMap and Wikidata](https://janakiev.com/slides/wikidata-openstreetmap/) by Nikolai Janakiev
 - (pt-br) [geojournalism.org](https://geojournalism.org/pt/) - As melhores ferramentas para reportagem multimídiageojournalism.org
+- [Amazônia Minada](https://infoamazonia.org/pt/embed/?map_only=1&map_id=20394&width=960&height=480&lat=-5.612569060628828&lon=-58.38409423828125,10&zoom=10): Amazônia Minada mostra em tempo real as atualizações de novos processos minerários dentro das 41 unidades de conservação de proteção integral sob gestão da União na Amazônia. A legislação brasileira proíbe qualquer tipo de atividade mineradora nessas áreas. O mapa faz diariamente a leitura do banco de dados da Agência Nacional de Mineração (ANM), filtrando registros que estão dentro dos limites geográficos das UCs informados pelo  Instituto Chico Mendes de Conservação e Biodiversidade (ICMBio), órgão responsável pela conservação dessas áreas. [github](https://github.com/InfoAmazonia/amazonia-minada)
 
 ## Estatística
 
@@ -114,7 +118,9 @@ Repositório de links e afins sobre Ciência de Dados:
 - [performance](https://github.com/easystats/performance): 💪 Models' quality and performance metrics (R2, ICC, LOO, AIC, BF, ...)
 - [vosonSML](https://github.com/vosonlab/vosonSML): R package for collecting social media data and creating networks for analysis.
 - [correlation](https://github.com/easystats/correlation): Easy peasy correlations
-  
+- [ggseg](https://github.com/LCBC-UiO/ggseg): Plotting tool for brain atlases, in ggplot.
+- [Learning Statistics with R](https://learningstatisticswithr.com/) by Danielle Navarro
+
 ### Estilo de código
 
 - [Style guide](http://adv-r.had.co.nz/Style.html): Good coding style is like using correct punctuation. You can manage without it, but it sure makes things easier to read. As with styles of punctuation, there are many possible variations.
@@ -182,6 +188,8 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Web Scraping HTML Tables with Python](https://towardsdatascience.com/web-scraping-html-tables-with-python-c9baba21059)
 - Sites para testes de raspagem de dados:
   - [Complete Pokémon Pokédex](https://pokemondb.net/pokedex/all)
+- [snscrape](https://github.com/JustAnotherArchivist/snscrape): A social networking service scraper in Python
+- [URL Decoding query strings or form parameters in Python](https://www.urldecoder.io/python/)
 
 ## Cursos
 
