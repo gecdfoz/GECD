@@ -29,8 +29,6 @@ Marília Melo Favalesso
 
 Ramon Fernandes Lourenço
 
-Fabiano Neumann
-
 Giovane Leite
 
 ## Contato:
