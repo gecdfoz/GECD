@@ -17,58 +17,7 @@ Durante o segundo semestre de 2019 foi iniciado a primeira turma do Grupo de Est
 
 ## Programação 2020.1:
 
-### PARTE I: Módulo de nivelamento/integração.
-Na primeira parte serão passados os conhecimentos básicos que integram o mundo da ciência de dados, começando pela estatística básica até a programação. 
-
-####	Encontro 1: Apresentação.
-- Apresentação do grupo de estudos: O que foi, o que é e o que será. 
-- Apresentação dos participantes.
-- O que é a ciência de dados e o profissional cientista de dados. 
-- Instrução para a instalação de softwares. 
-
-####	Encontro 2: Dados e a estatística básica. 
-- O que são dados e os tipos de dados.
-- Amostragem e organização de dados. 
-- Distribuição de dados. 
-- Estatística descritiva. 
-- Gráficos.
-- Exercícios. 
-
-####	Encontro 3: Introdução a programação. 
-- O que é programação. 
-- Conceitos básicos. 
-- Aplicando na ciência de dados. 
-- Exercícios. 
-
-#### Encontro 4: Introdução ao Git e GitHub. 
-- Controle de versões.
-- Introdução ao Git.
-- Uso no GitHub.
-- Exercícios. 
-
-### Parte II: Aprendendo sobre ciência de dados na prática.
-
-####	Encontro 5 e 6: Desafios em ciência de dados. 
-* Serão apresentados desafios em ciência de dados o desenvolvimento até o final do semestre. 
-
-
-_OS DEMAIS ENCONTROS ESTARÃO BASEADOS NOS DESAFIOS._
-
-## Calendário 2020.1:
-
-### Parte I: Integração/nivelamento.
-
-#### Encontro I - Apresentação. 28/03/2020: 09h - 12h
-#### Encontro II - Introdução ao mundo dos dados (estatística básica). 04/04/2020: 09h-12h | 14h-17h
-#### Encontro III - Introdução a programação com o Python. 18/04/2020: 09h-12h | 14h-17h
-#### Encontro IV - Aprendendo a controlar versões com o Git e GitHub.09/05/2020: 09h-12h | 14h-17h
-
-###  Parte II: Práticas com ciência de dados. 
-
-#### Encontro V - Desafios em Ciência de Dados. 16/05/2020: 09h-12h | 14h-17h
-#### Encontro VI - Desafios em Ciência de Dados. 30/05/2020: 09h-12h | 14h-17h
-
-*Obs:* Existe a possibilidade de alterações no calendário e também de atividades em dias não-planejados. 
+SUSPENSO
 
 ## Organizadores:
 
