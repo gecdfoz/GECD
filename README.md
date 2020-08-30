@@ -29,7 +29,7 @@ Marília Melo Favalesso
 
 Ramon Fernandes Lourenço
 
-Giovane Leite
+Giovani Leite
 
 ## Contato:
 gecdfozdoiguacu@gmail.com 
