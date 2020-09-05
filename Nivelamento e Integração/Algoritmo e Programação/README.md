@@ -1,5 +1,6 @@
 ## :construction: Algoritmos e Programação :construction:
 
+0. [Introdução](https://github.com/gecdfoz/GECD/blob/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/Algoritmo%20e%20Programa%C3%A7%C3%A3o/intro.md)
 1. O que é um Algoritmo?
 2. O que é Python?
 3. Como instalar
