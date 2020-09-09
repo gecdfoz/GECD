@@ -7,3 +7,6 @@ para decidir os passos seguintes e ferramentas que lhe ajudem durante a caminhad
 Nós vamos utilizar a linguagem Python, que é uma linguagem de programação. Esse vai ser o idioma utilizado na comunicação com as máquinas.
 Iremos aprender sobre algumas estruturas comuns a diversas linguagens de programação (vai ajudar caso queira aprender outras também, como R, por exemplo)
 e como fazer algumas tarefas usando python como, por exemplo, ler de um arquivo, processar esses dados e salvarmos os resultados em um outro arquivo. Tudo com programação!
+
+Para isso, você vai precisar ter a linguagem instalada em seu computador, o download pode ser feito [aqui](https://www.python.org/downloads/).
+Caso tenha problemas com a instalação, peça ajuda! Você pode fazer isso através da criação de [issues](https://github.com/gecdfoz/GECD/issues) nesse projeto.
