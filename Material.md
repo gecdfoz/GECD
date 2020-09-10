@@ -271,6 +271,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [data_sci_guide](https://github.com/Chris-Engelhardt/data_sci_guide) - A community-sourced data science repo.
 - [Data-Science](https://github.com/paulinhacnn/Data-Science) -  Toda semana um novo material estará disponível para guiar no estudo de ciência de dados =)
 - [MATLAB–Python–Julia cheatsheet](https://cheatsheets.quantecon.org/)
+- [Repositório do Grupo de Métodos Analíticos em Vigilância Epidemiológica MAVE](https://gitlab.procc.fiocruz.br/mave/repo/)
 
 ## Assuntos Gerais
 
