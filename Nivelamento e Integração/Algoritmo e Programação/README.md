@@ -10,6 +10,6 @@
 7. Estrutura de repetição
 8. Strings
 9. Números
-10. Listas
+10. [Listas](https://github.com/gecdfoz/GECD/blob/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/Algoritmo%20e%20Programa%C3%A7%C3%A3o/listas.md)
 11. Tuplas & dicionários
 12. Tratamento de erros
