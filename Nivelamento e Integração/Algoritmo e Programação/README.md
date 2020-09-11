@@ -9,6 +9,6 @@
 6. Estrutura de repetição
 7. Strings
 8. Números
-9. Listas
+9. [Listas](listas.md)
 10. Tuplas & dicionários
 11. Tratamento de erros
