@@ -42,7 +42,7 @@ hello world
 >>>
 ```
 
-Essa forma de escrever código (em um console da linguagem) que é executado imediatamente e imprime o resultado, é chamado de *REPL* (<<read-eval-print-loop>>), representando as suas funcionalidades, lê direto do teclado, executa o código, imprime o resultado num ciclo. Antes de continuar, certifique-se de que você poderá usar o REPL.
+Essa forma de escrever código (em um console da linguagem) que é executado imediatamente e imprime o resultado, é chamado de *REPL* (read-eval-print-loop), representando as suas funcionalidades, lê direto do teclado, executa o código, imprime o resultado num ciclo. Antes de continuar, certifique-se de que você poderá usar o REPL.
 
 Vamos ver com mais detalhes como funciona este REPL:
 
