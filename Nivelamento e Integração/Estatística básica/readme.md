@@ -1,7 +1,7 @@
 
 ## :construction: Estatística básica :construction:
 
-0. Introdução
+0. [Introdução](0. Introdução.md)
 1. Organização de dados qualitativos e quantitativos
 2. Medidas de tendência central ou de posição
 3. Medidas de dispersão e de variabilidade
