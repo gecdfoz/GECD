@@ -10,5 +10,5 @@
 7. Strings
 8. Números
 9. [Listas](listas.md)
-10. Tuplas & dicionários
+10. [Tuplas & dicionários](tuplas_dicionarios.md)
 11. Tratamento de erros
