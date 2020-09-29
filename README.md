@@ -4,7 +4,7 @@
 
 Seja muito bem vind\_!
 
-Este repositório contém todos os conteúdos repassados em encontros do _Grupo de Estudos em Ciência de Dados (GECD)_, desde slides, até vídeos-aulas, livros, blogs, etc. O _GECD_ é formado por um grupo de profissionais e entusiastas da ciência de dados oriundos de diferentes áreas cientificas (exatas, biológicas e humanas). O objetivo principal do grupo é o de contribuir com a formação de massa critica quanto ao uso de dados na comunidade de Foz do Iguaçu e região. O grupo é gratuito e atualmente é apoiado pelas universidades UNILA e UNIAMERICA.
+Este repositório contém todos os conteúdos repassados em encontros do _Grupo de Estudos em Ciência de Dados (GECD)_, desde slides, até vídeos-aulas, livros, blogs, etc. O _GECD_ é formado por um grupo de profissionais e entusiastas da ciência de dados oriundos de diferentes áreas cientificas (exatas, biológicas e humanas). O objetivo principal do grupo é o de contribuir com a formação de massa critica quanto ao uso de dados na comunidade de Foz do Iguaçu e região. O grupo é gratuito e atualmente é apoiado pela universidade UNILA. 
 
 ## O GECD em 2020:
 
