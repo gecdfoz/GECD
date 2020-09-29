@@ -57,6 +57,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Weekly inspirations #16](https://blog.smallmultiples.com.au/2019/10/18/weekly-inspirations-16/) – Information is Beautiful shortlist 2019
 - [The minimum wage is $11+ in New York State. Across the border in Pennsylvania, it's still just $7.25.](https://twitter.com/bencasselman/status/1194624093762535425).
 - [Wonderful animation visualises the speed of sound in various ways.](https://twitter.com/simongerman600/status/1194597126803771392)
+- [What We Know About Coronavirus Cases in K-12 Schools So Far](https://www.nytimes.com/interactive/2020/09/21/us/covid-schools.html)
 
 ## Cores
 
@@ -120,6 +121,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [correlation](https://github.com/easystats/correlation): Easy peasy correlations
 - [ggseg](https://github.com/LCBC-UiO/ggseg): Plotting tool for brain atlases, in ggplot.
 - [Learning Statistics with R](https://learningstatisticswithr.com/) by Danielle Navarro
+- [Wiki R](https://www.ufrgs.br/wiki-r/index.php?title=Bem-vindo_%C3%A0_Wiki_R)
 
 ### Estilo de código
 
@@ -140,18 +142,23 @@ Repositório de links e afins sobre Ciência de Dados:
   - [petR](https://github.com/pedrocava/petR): Curso de R para o PET da Economia da UFF. Aulas e Material do Workshop de R com o PET da Faculdade de Economia da UFF.
 - [Workshop sobre criação de workflows no workbench para exploração de dados](https://docs.google.com/presentation/d/e/2PACX-1vRhkHlPcCpw6TwFk8D5kcvRX1PQ4KWkOUtxACqOf_WcHG6JVzd1YUYAATBz3oQpKAxbSCyx6OAVvOf2/pub?start=false&loop=false&delayms=3000#slide=id.p)
 - [Python para Zumbis](https://www.youtube.com/playlist?list=PLUukMN0DTKCtbzhbYe2jdF4cr8MOWClXc)
-
-## Jupyter
-
-- Jupyter Notebook for Beginners: [A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-- [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
-- [Interactive Parallel Computing with IPython](https://github.com/ipython/ipyparallel)
-- [Jupyter Notebook on Fedora with official packages and SSL](https://avi.alkalay.net/2018/07/fedora-jupyter-notebook.html)
+- [Adaptação de "Programming with Python" da Software Carpentry](https://github.com/dadosprobr/python-novice-inflammation)
 
 ## Modelos
 
 - [OSF | ShareSEM: Example and Template R Scripts for Lavaan, Blavaan, and More](https://osf.io/nh2mb/)
 - [BOOKDOWN](https://bookdown.org/)
+
+## Python
+
+- [Fedora 32 Python Classroom](https://labs.fedoraproject.org/python-classroom/download/index.html)
+
+### Jupyter
+
+- Jupyter Notebook for Beginners: [A Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+- [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+- [Interactive Parallel Computing with IPython](https://github.com/ipython/ipyparallel)
+- [Jupyter Notebook on Fedora with official packages and SSL](https://avi.alkalay.net/2018/07/fedora-jupyter-notebook.html)
 
 ## Machine Learning
 
@@ -220,6 +227,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [leis-brasileiras](https://github.com/MinisterioPublicoRJ/leis-brasileiras): Scripts para baixar de forma automatizada as leis brasileiras disponíveis em sites de órgãos do governo.
 - [The Antarctic Iceberg Tracking Database](https://www.scp.byu.edu/data/iceberg/)
 - [CEPESP DATA](http://cepespdata.io/): O Centro de Política e Economia do Setor Público (CEPESP) da Fundação Getulio Vargas (FGV) disponibiliza uma série de bases de dados eleitorais pesquisáveis, o CepespData.
+- [amsterdam-schema](https://github.com/Amsterdam/amsterdam-schema): Data modeling & verification for the City of Amsterdam's open data - based on JSON Schema
 
 ### Mudanças Climáticas
 
@@ -280,6 +288,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Big Data Brasil Day 2019 rola nos dias 2 a 5 de maio](http://tutano.trampos.co/20800-big-data-brasil-day-2019/)
 - [2019 Women in Tech Report](https://research.hackerrank.com/women-in-tech/2019)
 - [pivigo](https://www.pivigo.com/): Creating global opportunities with Data Science
+- [Como o Colaborabot descobriu um erro capaz de modificar dados governamentais](https://colaboradados.com.br/reportagens/2020-09-07-como-o-colaborabot-descobriu-um-erro-capaz-de-modificar-dados-governamentais.html)
 
 ### Exemplos
 
@@ -293,6 +302,9 @@ Repositório de links e afins sobre Ciência de Dados:
 - [Ciência de dados na linha de comando](http://turicas.info/slides/linha-de-comando/abraji-2019.html#/)
 - [Conteúdos mais acessados pelos Iguaçuenses](https://medialabfoz.com/2019/06/28/top10primeiraquinzena/) – período 28/05 até 10/06. By MediaLAB FOZ
 - [After Sandy Hook, we said never again. And then we let 2184 mass shootings happen.](https://www.vox.com/a/mass-shootings-america-sandy-hook-gun-violence)
+- [Análises de séries temporais do COFOG](https://painel-cofog.tesouro.gov.br/dashboard_cofog.Rmd): despesa do governo central em 2019.
+- [3.5 Years of a Relationship, in Whatsapp Messages](https://medium.com/data-slice/3-5-years-of-a-relationship-in-whatsapp-messages-4f4c95073c9d)
+- [PDF Text Extraction in Python](https://towardsdatascience.com/pdf-text-extraction-in-python-5b6ab9e92dd?gi=e1d0fd753e4c), [code](https://github.com/MatePocs/lovecraft)
 
 ### Copyleft
 
