@@ -1,0 +1,6 @@
+
+Sugestões durante a reunião:
+1. Gamificação dos cursos de base. Criar um jogo que vai fornecer dados e possíveis respostas. 
+A cada X/tempo os dados mudam, assim como as respostas as perguntas (muda entradas e saídas). 
+2. Email convite para a hacktober fest. 
+
