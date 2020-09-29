@@ -1,0 +1,33 @@
+Detalhes
+
+Chegou OUTUBRO e é com muita alegria que anunciamos a 2ª edição do Hacktoberfest GECD e GDG Foz do Iguaçu (aquele momento em que faremos nossas contribuições e, assim, vamos ganhar mais conhecimento... além de garantir a bela camiseta enviada à todos que participam do evento e cumprem os requisitos hehehe).
+
+-- Programação --
+
+A DEFINIR
+
+-- Sobre o evento --
+
+Nessa edição nos juntaremos ONLINE para fazer nossas contribuições aos diversos projetos Open Source que estão precisando de ajuda.
+
+Se você ainda não sabe quais projetos contribuir não se preocupe, nós da organização estamos montando uma lista com projetos legais para levar como opção (e também podemos achar algum projeto lá na hora). E se você já sabe em qual projeto quer contribuir, pode vir também! Tem espaço para todo mundo! Estaremos todos lá com o mesmo propósito: Contribuir com a comunidade, aprender e ajudar uns aos outros :)
+
+-- Inscrições --
+
+EM BREVE
+
+-- IMPORTANTE --
+
+• Para esse evento é necessário que você use/tenha seu próprio computador e acesso à internet! <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+-- REGRAS SOBRE DESISTÊNCIA --
+
+Para controlar melhor as desistências de pessoas que confirmaram presença iremos começar a aplicar um "banimento" daquela pessoa para as próximas edições do Hacktoberfest ou encontros do GECD e GDG Foz do Iguaçu(seja meetup, gdg community ou o evento de Outubro). Funcionará da seguinte forma:
+
+• Se você confirmou presença, a lista foi fechada (geralmente a lista vai ser fechada na manhã do dia do evento) e você não comparecer, ganha "ban";
+
+----------------------------------------------------------------------------------------------------
+
+Estaremos utilizando o Código de Conduta: https://github.com/gecdfoz/GECD/blob/master/CodigoDeConduta.md
+
+Por que os eventos precisam de um código de conduta? pessoal do codamos tem um relato muito bacana: https://medium.com/codamos/https-medium-com-cy63113-por-que-os-eventos-precisam-de-um-codigo-de-conduta-9f231dcd2db3
