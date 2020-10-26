@@ -122,6 +122,7 @@ Repositório de links e afins sobre Ciência de Dados:
 - [ggseg](https://github.com/LCBC-UiO/ggseg): Plotting tool for brain atlases, in ggplot.
 - [Learning Statistics with R](https://learningstatisticswithr.com/) by Danielle Navarro
 - [Wiki R](https://www.ufrgs.br/wiki-r/index.php?title=Bem-vindo_%C3%A0_Wiki_R)
+- [knitr_case_studies](https://github.com/betanalpha/knitr_case_studies): Inference case studies in knitr 
 
 ### Estilo de código
 
