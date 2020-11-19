@@ -18,8 +18,10 @@ próprios códigos com fins de divulgação e/ou colaboração.
 Existem diversas maneiras de trabalhar com o Git e o GitHub. Aqui você
 poderá eleger algumas opções para aprender!
 
-<img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" style="width:10cm" />
 
-1.  (Git e GitHub com o
-    RStudio)\[<a href="https://github.com/gecdfoz/GECD/tree/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/GitHub/Git%20e%20GitHub%20com%20o%20R" class="uri">https://github.com/gecdfoz/GECD/tree/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/GitHub/Git%20e%20GitHub%20com%20o%20R</a>\].
+1.  [Git e GitHub com o
+    RStudio](https://github.com/gecdfoz/GECD/tree/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/GitHub/Git%20e%20GitHub%20com%20o%20R).
 2.  Git e GitHub com o Python.
+
+
+<img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" style="width:10cm" />
