@@ -2,7 +2,7 @@
 title: "Introdução ao Git e ao Github com o R"
 author: "Marília Melo Favalesso"
 date: "19/11/2020"
-output: html_document
+output: md_document
 ---
 
 # Introdução ao Git e ao GitHub
