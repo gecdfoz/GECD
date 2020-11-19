@@ -105,5 +105,17 @@ Após escreve-lo, pule uma linha e salve o arquivo. Na sequência, reinicie o RS
 
 ## Criar um repositório no GitHub
 
+Um repositório é um local (pasta/diretório) dentro de sua conta do GitHub que é feita para gerenciar um projeto. O repositório pode conter pastas, arquivos, imagens etc; enfim, tudo que o seu projeto precisar.
+
+O GitHub sempre aconselha seus usuários a incluírem um arquivo "*README.md*" contendo todas as informações sobre o seu projeto nos repositórios criados. Esse arquivo precisa estar no formato 'md' e escrito em linguagem 'markdown'.
+
+![](figuras/readme_arquivos.png)
+
+## Criando um repositório diretamente no GitHub
+
+Acesse a sua conta GitHub e acesse a opção "new" na guia "repositories" (1a). Na página que aparecerá na sequência, incluir um nome para o seu repositório (2b), uma descrição (2c), determinar se o seu repositório será público ou privado (2d) e adicione um arquivo para a descrição do seu repositório (README.md) (2e).
+
+### ![](figuras/novo_proj_dgithub.png){width="48cm"} 
+
 \
 \
