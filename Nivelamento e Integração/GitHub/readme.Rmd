@@ -11,7 +11,7 @@ O *Git* é um software de controle de versões que tem como objetivo gerenciar a
 
 A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus trabalhos com o *R*!
 
-![](https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg)
+![](https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg){width="10cm"}
 
 ## Alguns exemplos
 
@@ -22,6 +22,8 @@ Para iniciar a familiarização com a ferramenta, que tal conhecer alguns projet
 3.  (...)
 
 ## Referências desse curso
+
+"Nessa vida nada se cria, tudo se transforma". Dito isso, deixo na sequência as referências que usei para criar esse tutorial. Recomendo a leitura de cada uma!
 
 -   Curso-R. [Rstudio e GitHub no dia-a-dia](https://www.curso-r.com/blog/2017-07-17-rstudio-e-github/).
 
@@ -113,9 +115,35 @@ O GitHub sempre aconselha seus usuários a incluírem um arquivo "*README.md*" c
 
 ## Criando um repositório diretamente no GitHub
 
-Acesse a sua conta GitHub e acesse a opção "new" na guia "repositories" (1a). Na página que aparecerá na sequência, incluir um nome para o seu repositório (2b), uma descrição (2c), determinar se o seu repositório será público ou privado (2d) e adicione um arquivo para a descrição do seu repositório (README.md) (2e).
+Acesse a sua conta GitHub e acesse a opção "new" na guia "repositories" (1a). Na página que aparecerá na sequência, incluir um nome para o seu repositório (2b), uma descrição (2c), determinar se o seu repositório será público ou privado (2d) e peça para o GitHub adicionar um arquivo para a descrição do seu repositório (README.md) (2e).
 
-### ![](figuras/novo_proj_dgithub.png){width="48cm"} 
+### ![](figuras/novo_proj_dgithub.png){width="48cm"}
+
+#### Dicas:
+
+Coloque um nome sem espaço e sem caracteres especiais no seu repositório. Quanto mais simples o nome, melhor! Por exemplo, em ver de colocar o nome "Meu respositório", colocar "meu\_repositorio".
+
+A descrição desse repositório deve ser direta e sucinta! As informações mais detalhadas estarão no arquivo 'README.md'.
+
+### Clonar o repositório criado no seu computador
+
+Agora que você já criou um repositório no GitHub, é necessário clona-lo para usar no seu RStudio. Para tal, você precisa abrir o RStudio e acessar "File \> New Project".
+
+![](figuras/newproject1.png)
+
+Na aba "Create Project" (1), selecionar a opção **Version Control** e, na sequência, em "Create Project from Version Control" (2) eleger a opção **Git**.
+
+![](figuras/newproject2.png)\
+
+Em seguida, na guia "Clone Git Repository", você precisara preencher os dados do repositório que você quer clonar. Especificamente, você precisará copiar a URL do seu repositório GitHub (1b) na guia "Repository URL" (2a). Após inserir a URL, o campo "project directory name" (2b) será preenchido automaticamente. Para finalizar, você precisa escolher um diretório - uma pasta no seu computador - para manter uma cópia local do seu repositório (2c).
+
+![](figuras/clone.png)
+
+O *RStudio* irá fazer o clone do repositório, e abrirá um RProj para ele (caso não exista um ainda, será criado).
+
+## Criando um repositório pelo RStudio
+
+Você também pode criar um novo repositório pelo RStudio utilizando a função `create_project()`.
 
 \
 \
