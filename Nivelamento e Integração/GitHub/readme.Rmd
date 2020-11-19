@@ -143,7 +143,19 @@ O *RStudio* irá fazer o clone do repositório, e abrirá um RProj para ele (cas
 
 ## Criando um repositório pelo RStudio
 
-Você também pode criar um novo repositório pelo RStudio utilizando a função `create_project()`.
+Você também pode criar um novo repositório pelo RStudio utilizando a função `create_package("diretorio/nome_repo")`. Com ela, você precisará fornecer um diretório e o nome do novo¹ repositório. **!!Importante não repetir nome de repositório!! Os nomes precisam ser únicos**.
+
+Relativo ao diretório, eu tenho um padrão em meu computador chamado "GitHub" onde salvo todos os repositórios que eu trabalho.
+
+```{r}
+usethis::create_project("C:/Users/MMF/Dropbox/GitHub/Teste1")
+```
+
+O *RStudio* abrirá outra janela, com o novo projeto criado.
+
+### Guia Git no RStudio
+
+Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*).
 
 \
 \
