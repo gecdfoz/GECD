@@ -157,16 +157,26 @@ O *RStudio* abrirá outra janela, com o novo projeto criado.
 
 Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*). Para facilitar a nossa vida, vamos precisar que o RStudio abra uma guia chamada "Git". Caso o seu *RStudio* já apresente essa guia, pode pular para a próxima etapa! Caso não, continue nesse tópico.
 
-Aqui vamos trabalhar na janela que o RStudio abriu com o nosso novo projeto criado.
-
 ![](images/guia_git.png)
 
-Primeiro vamos executar o comando `use_git()`do pacote usethis. Ao realizar a ação, o programa irá perguntar se você deseja '*commitar*' (salvar) os arquivos que estão dentro da pasta correspondente ao seu repositório. Na sequência também irá perguntar se é para realizar o commit com a frase "*initial commit*". Para ambos os casos, é necessário digitar um número correspondendo a estar de acordo.
+Aqui vamos trabalhar na janela que o RStudio abriu após criar um novo projeto.
+
+Primeiro vamos executar o comando `use_git()` do pacote usethis.
 
 ```{r eval=FALSE, include=TRUE}
 usethis::use_git()
+```
+
+Ao realizar a ação, o programa irá perguntar se você deseja '*commitar*' (salvar) os arquivos que estão dentro da pasta correspondente ao seu repositório na sua linha do tempo de edições. Na sequência também irá perguntar se é para realizar o commit com a frase "*initial commit*". Para ambos os casos, é necessário digitar um número correspondendo a estar de acordo.
+
+Realizada a ação, o RStudio irá reinicializar e aparecerá a guia "Git".
+
+### GitHub direto do RStudio
+
+```{r}
+usethis::use_github()
 
 ```
 
-![](images/use_git.png)\
-\
+
+
