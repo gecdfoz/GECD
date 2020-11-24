@@ -216,6 +216,8 @@ Com a função 'create\_from\_github()' vamos precisar fornecer o nome do própr
 
 ### Fork
 
+![](https://camo.githubusercontent.com/431eb028415c13b902568381cf937a432c1f38e9e242967ce35c62cc5a23274b/68747470733a2f2f692e696d6775722e636f6d2f7034563967317a2e676966)
+
 Uma **bifurcação** ou ***ramificação*** (em inglês: *fork*) acontece quando um/a programador/a (ou um grupo de programadores) inicia um projeto independente com base no código de um projeto já existente, ou seja, quando um software é desenvolvido com base em outro, já existente, sem a descontinuidade deste último.
 
 Imagine que existe um repositório de um determinado software no github. Quando você clica na guia 'fork' desse repositório, você está copiando todos os dados desse repositório para a sua conta. Essa cópia continua conectada ao repositório original após isso. Se você você fizer um fork com algum projeto, irá notar uma barra informando quantos *commits* a sua *branch* está atrás ou na frente do projeto inicial. Com essa cópia em mãos, você poderá editar esse projeto com a finalidade de criar algo novo ou realizar correções com a finalidade de devolver para o desenvolvedor do projeto clonado.
@@ -260,4 +262,6 @@ Ao terminar de trabalhar com o código, utilize a função pr\_push() para subi-
 usethis::pr_push()
 ```
 
-A página do GitHub será aberta, para que possa completar o Pull Request.\
+A página do GitHub será aberta, para que possa completar o Pull Request.
+
+\
