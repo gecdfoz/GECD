@@ -196,7 +196,7 @@ Com a execução da função, o RStudio abrirá uma nova guia para edição dess
 
 INCLUIR UM VÍDEO OU GIF MOSTRANDO TODO O PROCESSO.
 
-## Como contribuir em repositórios de terceiros? 
+## Como contribuir em repositórios de terceiros?
 
 ### Clone
 
