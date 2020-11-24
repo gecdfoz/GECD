@@ -258,7 +258,6 @@ Ao terminar de trabalhar com o código, utilize a função pr\_push() para subi-
 
 ```{r}
 usethis::pr_push()
-
 ```
 
-###  
+A página do GitHub será aberta, para que possa completar o Pull Request.\
