@@ -26,3 +26,4 @@ poderá eleger algumas opções para aprender!
 
 <img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" style="width:10cm" />
 
+lala
