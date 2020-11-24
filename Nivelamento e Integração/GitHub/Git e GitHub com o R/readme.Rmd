@@ -94,7 +94,7 @@ Agora, quando for usar a linha de comando para fazer operações de Git ou quand
 
 Primeiro precisamos abrir o arquivo `.Renviron`:
 
-```{r}
+```{r eval=FALSE, include=TRUE}
 usethis::edit_r_environ()
 
 ```
@@ -147,7 +147,7 @@ Você também pode criar um novo repositório pelo RStudio utilizando a função
 
 Relativo ao diretório, eu tenho um padrão em meu computador chamado "GitHub" onde salvo todos os repositórios que eu trabalho.
 
-```{r}
+```{r eval=FALSE, include=TRUE}
 usethis::create_project("C:/Users/MMF/Dropbox/GitHub/Teste1")
 ```
 
@@ -155,7 +155,18 @@ O *RStudio* abrirá outra janela, com o novo projeto criado.
 
 ### Guia Git no RStudio
 
-Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*).
+Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*). Para facilitar a nossa vida, vamos precisar que o RStudio abra uma guia chamada "Git". Caso o seu *RStudio* já apresente essa guia, pode pular para a próxima etapa! Caso não, continue nesse tópico.
 
-\
+Aqui vamos trabalhar na janela que o RStudio abriu com o nosso novo projeto criado.
+
+![](images/guia_git.png)
+
+Primeiro vamos executar o comando `use_git()`do pacote usethis. Ao realizar a ação, o programa irá perguntar
+
+```{r eval=FALSE, include=TRUE}
+usethis::use_git()
+
+```
+
+![](images/use_git.png)\
 \
