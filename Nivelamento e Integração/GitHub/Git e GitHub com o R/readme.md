@@ -19,7 +19,7 @@ A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar
 com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus
 trabalhos com o *R*!
 
-![](https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg)
+<img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" style="width:10cm" />
 
 Alguns exemplos
 ---------------
@@ -35,6 +35,10 @@ projetos hospedados no GitHub?
 
 Referências desse curso
 -----------------------
+
+“Nessa vida nada se cria, tudo se transforma”. Dito isso, deixo na
+sequência as referências que usei para criar esse tutorial. Recomendo a
+leitura de cada uma!
 
 -   Curso-R. [Rstudio e GitHub no
     dia-a-dia](https://www.curso-r.com/blog/2017-07-17-rstudio-e-github/).
@@ -85,7 +89,7 @@ e e-mail cadastrado em sua conta GitHub:
 Outra possibilidade é executar essa configuração diretamente no Git em
 sua máquina:
 
-![](figuras/conf_git.png)
+![](images/conf_git-01.png)
 
 Configurando o GitHub
 ---------------------
@@ -127,7 +131,7 @@ etc. No restante da página você poderá selecionar as permissões que quer
 dar para esse token. Para selecionar seus repositórios pela linha de
 comando, selecione o `repo`.
 
-![](figuras/token.png)
+![](images/token.png)
 
 No final da página, ao clicar em `Generate token`, seu token será gerado
 e exibido para você. Copie **agora** e guarde esse número. Por motivos
@@ -143,15 +147,11 @@ Primeiro precisamos abrir o arquivo `.Renviron`:
 
     usethis::edit_r_environ()
 
-    ## * Edit 'C:/Users/MMF/Documents/.Renviron'
-
-    ## * Restart R for changes to take effect
-
 O RStudio abrirá o arquivo como uma nova página e nele vamos precisar
 escrever um comando ‘github\_pat’ seguido pelo número do token gerado,
 ou seja, `GITHUB_PAT=NUMERO_DO_TOKEN`.
 
-![](figuras/github_PAT.png)
+![](images/github_PAT.png)
 
 Após escreve-lo, pule uma linha e salve o arquivo. Na sequência,
 reinicie o RStudio com CTRL + SHIFT + F10.
@@ -159,5 +159,97 @@ reinicie o RStudio com CTRL + SHIFT + F10.
 Criar um repositório no GitHub
 ------------------------------
 
-  
+Um repositório é um local (pasta/diretório) dentro de sua conta do
+GitHub que é feita para gerenciar um projeto. O repositório pode conter
+pastas, arquivos, imagens etc; enfim, tudo que o seu projeto precisar.
+
+O GitHub sempre aconselha seus usuários a incluírem um arquivo
+“*README.md*” contendo todas as informações sobre o seu projeto nos
+repositórios criados. Esse arquivo precisa estar no formato ‘md’ e
+escrito em linguagem ‘markdown’.
+
+![](images/readme_arquivos.png)
+
+Criando um repositório diretamente no GitHub
+--------------------------------------------
+
+Acesse a sua conta GitHub e acesse a opção “new” na guia “repositories”
+(1a). Na página que aparecerá na sequência, incluir um nome para o seu
+repositório (2b), uma descrição (2c), determinar se o seu repositório
+será público ou privado (2d) e peça para o GitHub adicionar um arquivo
+para a descrição do seu repositório (README.md) (2e).
+
+### ![](images/novo_proj_dgithub.png)
+
+#### Dicas:
+
+Coloque um nome sem espaço e sem caracteres especiais no seu
+repositório. Quanto mais simples o nome, melhor! Por exemplo, em ver de
+colocar o nome “Meu respositório”, colocar “meu\_repositorio”.
+
+A descrição desse repositório deve ser direta e sucinta! As informações
+mais detalhadas estarão no arquivo ‘README.md’.
+
+### Clonar o repositório criado no seu computador
+
+Agora que você já criou um repositório no GitHub, é necessário clona-lo
+para usar no seu RStudio. Para tal, você precisa abrir o RStudio e
+acessar “File &gt; New Project”.
+
+![](images/newproject1.png)
+
+Na aba “Create Project” (1), selecionar a opção **Version Control** e,
+na sequência, em “Create Project from Version Control” (2) eleger a
+opção **Git**.
+
+![](images/newproject2.png)  
+
+Em seguida, na guia “Clone Git Repository”, você precisara preencher os
+dados do repositório que você quer clonar. Especificamente, você
+precisará copiar a URL do seu repositório GitHub (1b) na guia
+“Repository URL” (2a). Após inserir a URL, o campo “project directory
+name” (2b) será preenchido automaticamente. Para finalizar, você precisa
+escolher um diretório - uma pasta no seu computador - para manter uma
+cópia local do seu repositório (2c).
+
+![](images/clone.png)
+
+O *RStudio* irá fazer o clone do repositório, e abrirá um RProj para ele
+(caso não exista um ainda, será criado).
+
+Criando um repositório pelo RStudio
+-----------------------------------
+
+Você também pode criar um novo repositório pelo RStudio utilizando a
+função `create_package("diretorio/nome_repo")`. Com ela, você precisará
+fornecer um diretório e o nome do novo¹ repositório. **!!Importante não
+repetir nome de repositório!! Os nomes precisam ser únicos**.
+
+Relativo ao diretório, eu tenho um padrão em meu computador chamado
+“GitHub” onde salvo todos os repositórios que eu trabalho.
+
+    usethis::create_project("C:/Users/MMF/Dropbox/GitHub/Teste1")
+
+O *RStudio* abrirá outra janela, com o novo projeto criado.
+
+### Guia Git no RStudio
+
+Agora que você já sabe como criar e clonar repositórios, as próximas
+estapas serão aprender a salvar as mudanças realizadas (*commit*) e
+envia-las para o seu repositório no Github (*push*). Para facilitar a
+nossa vida, vamos precisar que o RStudio abra uma guia chamada “Git”.
+Caso o seu *RStudio* já apresente essa guia, pode pular para a próxima
+etapa! Caso não, continue nesse tópico.
+
+Aqui vamos trabalhar na janela que o RStudio abriu com o nosso novo
+projeto criado.
+
+![](images/guia_git.png)
+
+Primeiro vamos executar o comando `use_git()`do pacote usethis. Ao
+realizar a ação, o programa irá perguntar
+
+    usethis::use_git()
+
+![](images/use_git.png)  
   
