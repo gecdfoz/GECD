@@ -7,7 +7,7 @@ output: md_document
 
 # Introdução ao Git e ao GitHub
 
-O *Git* é um software de controle de versões que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o *Git* examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado *GitHub*. A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
+O *Git* é um software de controle de versões que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o [*Git*](https://www.atlassian.com/br/git/tutorials/what-is-git) examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado [*GitHub*](https://github.com/). A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
 
 A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus trabalhos com o *R*!
 
@@ -290,3 +290,32 @@ O RStudio também oferece uma interface gráfica simples e de fácil utilizaçã
 ![](images/interface_grafica-01.svg)
 
 A aba 'Status' da interface Git mostra os formatos de arquivos que queremos rastrear. A guia 'Status' vai mostrar se o arquivo será adicionado, deletado, modificado (antes -\> depois), renomeado ou se ele não entrará para ser reastreado (= .gitignore).
+
+Antes de 'commitar' os arquivos, é importante selecionar o Branch correto. Caso você esteja iniciando a colaboração em algum projeto e ainda não possua um Branch, é só criar um novo na clicando na guia "New Branch".
+
+Após selecionar os arquivos que queremos commitar, precisamos clicar sobre a guia 'commit'. Realizada a ação, uma nova janela ira abrir, entitutlada "RStudio: Review Changes". Nessa janela teremos algumas informações sobre as alterações que realizamos em nosso arquivo e um espaço para descrever as alterções realizadas (commit message). Você precisará descrever bem o trabalho realizado. Após a descrição, clicar sobre a guia 'commit'. Todos os arquivos selecionados para o commit devem ter desaparecido da guia *Git* no IDE RStudio. Um arquivo reaparecerá quando você salvar novas alterações.
+
+![](images/commit.svg)
+
+Depois de confirmar suas alterações, você pode dar um `pull` para baixar a versão mais recente do repositório do GitHub clicando no botão `pull`. O conflito pode ocorrer durante essas etapas se várias pessoas modificaram o mesmo arquivo. Não se preocupe, o git o guiará pelas etapas necessárias para corrigir os conflitos. Este é o equivalente ao comando `git pull`.
+
+Depois de terminar o processo de pull, você pode clicar no botão `push` para fazer upload de suas alterações para GitHub e compartilhar seu trabalho com outras pessoas. Isso é equivalente ao comando `git push`.
+
+\
+\#\#\# Colabore com esse curso! Caso você possua alguma sugestão de alteração para essa guia, sinta-se a vontade para sugerir modificações! Quem sabe esse pode ser o seu primeiro projeto colaborativo no GitHub 🌸\
+
+## Tarefas:
+
+-   Instale todas as ferramentas necessárias para trabalhar com o Git no RStudio.
+
+-   Faça a configuração do seu token GitHub.
+
+-   Crie um novo repositório diretamente do RStudio, para testar.
+
+-   No arquivo README.md deste curso (ou seja, esse arquivo), inclua o seu nome na guia 'participantes'.
+
+-   Caso realize alguma modificação nesse ou em outro curso do GECD, inclua o seu nome na guia 'colaboradores'.
+
+-   Caso você encontre algum erro ou problema, [registre um issue em nosso repositório](https://github.com/gecdfoz/GECD/issues).
+
+    \
