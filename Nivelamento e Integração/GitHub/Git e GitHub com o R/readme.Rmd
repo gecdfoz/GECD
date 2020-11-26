@@ -262,6 +262,31 @@ Ao terminar de trabalhar com o código, utilize a função pr\_push() para subi-
 usethis::pr_push()
 ```
 
-A página do GitHub será aberta, para que possa completar o Pull Request.
+A página do GitHub será aberta, para que possa completar o Pull Request. Nela você terá acesso as mudanças no seu texto/código (vermelho é antes e verde depois). Você deve clicar na guia "create pull request".
+
+![](images/create_pull_gihub.png)
+
+Na sequência, preencha as informações sobre as mudanças realizadas. Existem diversas opções para edição de texto. Clique em "create pull request" novamente.
+
+![](images/create_pull_gihub2.png)
+
+Após essa etapa, você deve esperar o mantenedor do repositório respondendo com o aceite do seu PR, ou com sugestões de melhoras ou mesmo o não-aceite do código. Na imagem na sequência temos o resultado final do PR.
 
 \
+![](images/create_pull_gihub3.png)
+
+Depois que o PR é aceito, temos a fusão entre as suas mudanças e o master.
+
+![](images/pull_resquest_done.png)
+
+## Interface gráfica no RStudio
+
+O RStudio também oferece uma interface gráfica simples e de fácil utilização na aba "Git". Essa aba só aparecerá no seu RStudio em projetos que estejam versionados com o Git.
+
+![](images/GIT_rstudio-01.png)
+
+![](https://www.flaticon.com/svg/static/icons/svg/68/68800.svg){width="120"}
+
+![](images/interface_grafica-01.svg)
+
+A aba 'Status' da interface Git mostra os formatos de arquivos que queremos rastrear. A guia 'Status' vai mostrar se o arquivo será adicionado, deletado, modificado (antes -\> depois), renomeado ou se ele não entrará para ser reastreado (= .gitignore).
