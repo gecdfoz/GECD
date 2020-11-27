@@ -128,7 +128,7 @@ Mas porque usar o controle de versões?
 ([tradução livre dos comentários em “Why should I use version
 control?”](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control))
 
-![](https://im2.ezgif.com/tmp/ezgif-2-dff0d375cf43.gif)
+![](figuras/ezgif-2-dff0d375cf43.gif)
 
 Você já:
 
