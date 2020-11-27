@@ -168,3 +168,5 @@ Um pull request é um pedido que se faz ao dono do repositório para que
 esse atualize o código dele com o seu código. Ou seja, você pede para
 que o dono do projeto ao qual você quer contribuir adicione suas
 modificações ao projeto oficial.
+=======
+<img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" style="width:10cm" />
