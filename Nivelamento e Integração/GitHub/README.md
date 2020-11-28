@@ -219,3 +219,11 @@ aprenda outros à medida que avança. Você logo descobrirá que nunca mais
 vai querer voltar à “idade das trevas”.
 
 Convencido/a? Bem-vinde ao clube!
+
+  
+
+Cursos disponíveis nesse repositório
+====================================
+
+1.  Introdução ao Git e Github com o GitHub desktop
+2.  Introdução ao Git e GitHub com o RStudio
