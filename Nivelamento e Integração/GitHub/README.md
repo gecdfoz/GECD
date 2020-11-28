@@ -27,36 +27,58 @@ poderá eleger algumas opções para aprender!
 
 2.  Git e GitHub com o Python.
 
+  
+
 Como funciona o controle de versões?
 ------------------------------------
 
-O Git é um exemplo de sistema de controle de versão distribuido (DVCS)
+O Git é um exemplo de sistema de controle de versão distribuído (DVCS)
 comumente utilizado para código aberto e desenvolvimento de softwares.
 Os DVCSs permitem acesso total a todos os arquivos, ramificações e
 iterações de um projeto e permitem que todos os usuários acessem um
 histórico completo e independente de todas as alterações.
 
-Ao utilizar o Git você terá, basicamente, um repositório (um servidor em
-outras palavras) onde os seus arquivos do projeto ficarão armazenados e
-o histórico de suas versões salvas. Nesse caso, o nosso repositório será
-o GitHub. Todos os colaboradores/desenvolvedores podem acessar e
-resgatar a ultima versão disponível do projeto pelo Git e fazer uma
-cópia em suas máquinas locais (o seu próprio computador), na qual
-poderão trabalhar em cima dela e continuar o processo de desenvolvimento
-paralelamente aos demais colegais. A cada alteração realizada, é
-póssivel enviar as suas alterações para o repositório e atualizar a sua
-versão a partir de outras feitas pelos demais desenvolvedores.
+Ao utilizar o Git você poderá, basicamente, enviar novas versões de um
+projeto para um repositório (um servidor em outras palavras) onde os
+seus arquivos ficarão armazenados e o histórico de suas versões salvas.
+Nesse caso, o nosso repositório será no GitHub. Todos os
+colaboradores/desenvolvedores podem acessar e resgatar a última versão
+disponível do projeto no GitHub e fazer uma cópia em suas máquinas
+locais (o seu próprio computador), na qual poderão trabalhar em cima
+dela e continuar o processo de desenvolvimento paralelamente aos demais
+colegas. A cada alteração realizada, é possível enviar as suas
+alterações para o repositório e atualizar a sua versão a partir de
+outras feitas pelos demais desenvolvedores.
 
-Por exemplo: Você atualizou seu projeto (`git pull`) e começou a fazer
-suas alterações. Ao mesmo tempo, outro desenvolvedor fez alterações e
-atualizou a versão no servidor. Quando for enviar sua versão
-(`git commit` e `git push`) o Git irá alertar que o seu arquivo está
-desatualizado. Ele enviará as novas informações adicionadas e permitirá
-mesclar as diferentes versões (a sua com a dos seus colegas)
+**Por exemplo**: Vamos supor que você iniciou a sua participação em um
+projeto já em andamento e hospedado no GitHub. Inicialmente, você
+precisará baixar a última versão do projeto na sua máquina
+(`git clone`). Ao longo do tempo, você irá trabalhar nesse projeto de
+maneira individual aos seus colegas, ou seja, você vai pegar o projeto
+em uma determinada etapa e começara a fazer as suas alterações a parte
+dos demais. Para tal, você criará uma `branch` (braços ou ramificações)
+a partir do projeto principal (o `trunk,` chamado de `branch master`).
+Outros desenvolvedores também farão alterações e as salvarão
+(`git commit`) em suas próprias branches.
+
+Ao finalizar a sua parte do projeto, você irá realizar um merge da sua
+branch com a branch master, e dará um pull request para avisar a todos
+os colegas que uma etapa do projeto já está pronta. Quando um colega for
+enviar a parte dele para o repositório (`git commit` e `git push`), o
+Git irá alertá-lo que a versão dele está desatualizada (ele ainda não
+baixou o que você enviou para o repositório) e pedirá que o colega
+atualize/baixe a nova versão em sua própria máquina (`git pull`). O git
+enviará as novas informações adicionadas para o seu colega e permitirá
+mesclar as diferentes versões (a do seu colega com o branch master)
 (`git merge`). Não apenas isso, ele também mostrará onde foram feitas
 atualizações, trechos de código incluídos ou removidos e casos de
 conflito, onde linhas podem se sobrescrever e oferecerá opções para
 mesclar manualmente, escolhendo a melhor solução.
+
+![Exemplo de funcionamento do Git e
+GitHub.](figuras/resumo_git_github.svg)
+
+  
 
 Termos importantes
 ------------------
@@ -77,50 +99,68 @@ mais comuns para usar o Git:
 
 -   `git clone` cria uma cópia local (na sua máquina) de um projeto que
     já existe remotamente. O clone inclui todos os arquivos, histórico e
-    ramos do projeto. Ao clonar um repositório, as alterações que você
-    realizar não entrarão no projeto principal se não for sequênciada de
-    um `fork` ou estiver associada a um `branch`.
-
--   `fork` quando você ‘bifurca’ um projeto (faz um ‘fork’), o GitHub
-    faz uma cópia do projeto para você; ele residira no seu namespace e
-    as edições poderão ser enviadas por push. Dessa forma, os projetos
-    não precisam se preocupar em adicionar usuários como colaboradores
-    para fornecer acesso por `push`. As pessoas podem bifurcar um
-    projeto, enviá-lo por push e contribuir com suas alterações de volta
-    ao repositório original por um `git pull`, que abordaremos a seguir.
-    Isso abre um tópico de discussão com revisão de código, e o
-    proprietário e o contribuidor podem se comunicar sobre a mudança até
-    que o proprietário esteja satisfeito com ela, momento em que o
-    proprietário pode mesclá-la.
+    branches do projeto. Ao clonar um repositório, as alterações que
+    você realizar não entrarão no projeto principal se não for
+    sequênciada de um `fork` ou estiver associada por um `branch`.
 
 -   `git status` mostra o status das alterações dos arquivos.
 
 -   `git branch` são ramificações de trabalho que permitem edições em
-    paralelo em nosso arquivo, sem alterar o projeto principal (branch
-    master) até o momento que quisermos assim. Em geral, um branch de
-    desenvolvimento é uma bifurcação do estado do código que cria um
-    novo caminho para a evolução do mesmo (vide figura abaixo). As
-    branches podem estar relacionadas a distintos tipos de trabalho que
-    compõem o nosso projeto (ex. introdução, métodos, resultados e
+    paralelo em nosso arquivo, sem alterar o projeto principal
+    (`branch master`) até o momento que quisermos assim. Em geral, um
+    branch de desenvolvimento é uma bifurcação do estado do código que
+    cria um novo caminho para a evolução do mesmo (vide figura abaixo).
+    As branches podem estar relacionadas a distintos tipos de trabalho
+    que compõem o nosso projeto (ex. introdução, métodos, resultados e
     discussão).
 
--   `git merge` é a união de duas branches, normalmente realizadas na
+-   `git merge` é a união de duas brances, normalmente realizadas na
     branch master. No exemplo do trabalho, séria unir as diferentes
     partes (introdução, métodos, resultados e discussão) em um só
-    arquivo (correspondente ao branch master).
+    arquivo.
 
--   `git pull` atualiza a linha local de desenvolvimento com
-    atualizações de sua contraparte remota. Os desenvolvedores usam este
-    comando se um colega de equipe fez commits para um branch em um
-    remoto e gostariam de refletir essas mudanças em seu ambiente local.
+-   `git pull`atualiza a linha local de desenvolvimento com atualizações
+    de sua contraparte remota. Os desenvolvedores usam este comando se
+    um colega de equipe fez commits para um branch em um remoto e
+    gostariam de refletir essas mudanças em seu ambiente local.
 
--   `git push` envia o trabalho que você realizou e salvou
-    (“*commitou*”) para o repositório.
-
-![](figuras/bolinhas_git1.svg)
+-   `git push` atualiza o repositório remoto com quaisquer commits
+    feitos localmente para um branch.
 
 Saiba mais em [um guia de referência completo para comandos
-Git](https://git-scm.com/docs) .
+Git](https://git-scm.com/docs).
+
+  
+
+O que é um repositório GitHub?
+------------------------------
+
+Um repositório, ou um projeto Git, é todo o acervo de arquivos e pastas
+associados a um projeto, somado ao histórico de versões de cada arquivo.
+Cada vez que salvamos uma alteração em um arquivo (ou *commitamos*),
+geramos um histórico de alterações para esse objeto. Todas as versões
+criadas são listadas pelo Git e podem ser organizadas em várias linhas
+de desenvolvimento chamadas *Branches*. Já o “Hub”é um aparelho
+utilizado na área de informática que permite a conexão de computadores a
+uma rede para compartilhar informação, sendo a nomenclatura em “GitHub”
+associada a conexão entre profissionais de programação de qualquer lugar
+do mundo.
+
+Para utilizar o GitHub [é necessário criar uma conta pessoal ou uma
+conta de equipe](https://github.com/). Para criar a sua conta, entre no
+[GitHub](https://github.com/) e preencha os dados solicitados — nome,
+e-mail e senha. Em alguns minutos, você vai receber um e-mail de
+confirmação para começar a utilizar a plataforma. Além das contas
+individuais e gratuitas, também existem aquelas destinadas a trabalhos
+em equipe e que são pagas.
+
+Após confirar o seu e-mail para o GitHub, você estará livre para
+explorar a ferramenta. Para isso você pode utilizar o guia [Hello World
+Guide](https://guides.github.com/activities/hello-world/) que o
+orientará como criar o seu primeiro *repositório*, fazer um *branch* ou
+abrir um *pull request*.
+
+  
 
 Mas porque usar o controle de versões?
 --------------------------------------
@@ -128,11 +168,11 @@ Mas porque usar o controle de versões?
 ([tradução livre dos comentários em “Why should I use version
 control?”](https://stackoverflow.com/questions/1408450/why-should-i-use-version-control))
 
-![](figuras/ezgif-2-dff0d375cf43.gif)
+<img src="figuras/varios_arquivos.png" width="295" />
 
 Você já:
 
--   Teve que manter várias versões de um produto? 👆🏾
+-   Teve que manter várias versões de um produto? 👆
 -   Fez uma alteração no código, percebeu que era um erro e queria
     voltar atrás?
 -   Perdeu o código ou tinha um backup muito antigo?
@@ -180,12 +220,10 @@ vai querer voltar à “idade das trevas”.
 
 Convencido/a? Bem-vinde ao clube!
 
-O que é um repositório?
------------------------
+  
 
-Um repositório, ou um projeto Git, é todo o acervo de arquivos e pastas
-associados a um projeto, somado ao histórico de versões de cada arquivo.
-Cada vez que salvamos uma alteração em um arquivo (ou *commitamos*),
-geramos um histórico de alterações para esse objeto. Todas as versões
-criadas são listadas pelo Git e podem ser organizadas em várias linhas
-de desenvolvimento chamadas *Branches*.
+Cursos disponíveis nesse repositório
+====================================
+
+1.  Introdução ao Git e Github com o GitHub desktop
+2.  Introdução ao Git e GitHub com o RStudio

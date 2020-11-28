@@ -7,7 +7,7 @@ output: md_document
 
 # Introdução ao Git e ao GitHub
 
-O *Git* é um software de controle de versões que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o *Git* examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado *GitHub*. A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
+O *Git* é um software de controle de versões que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o [*Git*](https://www.atlassian.com/br/git/tutorials/what-is-git) examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado [*GitHub*](https://github.com/). A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
 
 A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus trabalhos com o *R*!
 
@@ -196,7 +196,7 @@ Com a execução da função, o RStudio abrirá uma nova guia para edição dess
 
 INCLUIR UM VÍDEO OU GIF MOSTRANDO TODO O PROCESSO.
 
-## Como contribuir em repositórios de terceiros? 
+## Como contribuir em repositórios de terceiros?
 
 ### Clone
 
@@ -262,6 +262,60 @@ Ao terminar de trabalhar com o código, utilize a função pr\_push() para subi-
 usethis::pr_push()
 ```
 
-A página do GitHub será aberta, para que possa completar o Pull Request.
+A página do GitHub será aberta, para que possa completar o Pull Request. Nela você terá acesso as mudanças no seu texto/código (vermelho é antes e verde depois). Você deve clicar na guia "create pull request".
+
+![](images/create_pull_gihub.png)
+
+Na sequência, preencha as informações sobre as mudanças realizadas. Existem diversas opções para edição de texto. Clique em "create pull request" novamente.
+
+![](images/create_pull_gihub2.png)
+
+Após essa etapa, você deve esperar o mantenedor do repositório respondendo com o aceite do seu PR, ou com sugestões de melhoras ou mesmo o não-aceite do código. Na imagem na sequência temos o resultado final do PR.
 
 \
+![](images/create_pull_gihub3.png)
+
+Depois que o PR é aceito, temos a fusão entre as suas mudanças e o master.
+
+![](images/pull_resquest_done.png)
+
+## Interface gráfica no RStudio
+
+O RStudio também oferece uma interface gráfica simples e de fácil utilização na aba "Git". Essa aba só aparecerá no seu RStudio em projetos que estejam versionados com o Git.
+
+![](images/GIT_rstudio-01.png)
+
+![](https://www.flaticon.com/svg/static/icons/svg/68/68800.svg){width="120"}
+
+![](images/interface_grafica-01.svg)
+
+A aba 'Status' da interface Git mostra os formatos de arquivos que queremos rastrear. A guia 'Status' vai mostrar se o arquivo será adicionado, deletado, modificado (antes -\> depois), renomeado ou se ele não entrará para ser reastreado (= .gitignore).
+
+Antes de 'commitar' os arquivos, é importante selecionar o Branch correto. Caso você esteja iniciando a colaboração em algum projeto e ainda não possua um Branch, é só criar um novo na clicando na guia "New Branch".
+
+Após selecionar os arquivos que queremos commitar, precisamos clicar sobre a guia 'commit'. Realizada a ação, uma nova janela ira abrir, entitutlada "RStudio: Review Changes". Nessa janela teremos algumas informações sobre as alterações que realizamos em nosso arquivo e um espaço para descrever as alterções realizadas (commit message). Você precisará descrever bem o trabalho realizado. Após a descrição, clicar sobre a guia 'commit'. Todos os arquivos selecionados para o commit devem ter desaparecido da guia *Git* no IDE RStudio. Um arquivo reaparecerá quando você salvar novas alterações.
+
+![](images/commit.svg)
+
+Depois de confirmar suas alterações, você pode dar um `pull` para baixar a versão mais recente do repositório do GitHub clicando no botão `pull`. O conflito pode ocorrer durante essas etapas se várias pessoas modificaram o mesmo arquivo. Não se preocupe, o git o guiará pelas etapas necessárias para corrigir os conflitos. Este é o equivalente ao comando `git pull`.
+
+Depois de terminar o processo de pull, você pode clicar no botão `push` para fazer upload de suas alterações para GitHub e compartilhar seu trabalho com outras pessoas. Isso é equivalente ao comando `git push`.
+
+\
+\#\#\# Colabore com esse curso! Caso você possua alguma sugestão de alteração para essa guia, sinta-se a vontade para sugerir modificações! Quem sabe esse pode ser o seu primeiro projeto colaborativo no GitHub 🌸\
+
+## Tarefas:
+
+-   Instale todas as ferramentas necessárias para trabalhar com o Git no RStudio.
+
+-   Faça a configuração do seu token GitHub.
+
+-   Crie um novo repositório diretamente do RStudio, para testar.
+
+-   No arquivo README.md deste curso (ou seja, esse arquivo), inclua o seu nome na guia 'participantes'.
+
+-   Caso realize alguma modificação nesse ou em outro curso do GECD, inclua o seu nome na guia 'colaboradores'.
+
+-   Caso você encontre algum erro ou problema, [registre um issue em nosso repositório](https://github.com/gecdfoz/GECD/issues).
+
+    \
