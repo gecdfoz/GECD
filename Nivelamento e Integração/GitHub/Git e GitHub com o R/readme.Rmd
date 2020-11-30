@@ -173,7 +173,11 @@ Realizada a ação, o RStudio irá reinicializar e aparecerá a guia "Git".
 
 Você pode criar um arquivo *`.gitignore`* no diretório-raiz do seu repositório para dizer ao Git quais arquivos e diretórios devem ser ignorados ao fazer um commit. Para compartilhar as regras de ignorar com outros usuários que clonarem o repositório, faça o commit do arquivo *.gitignore* no seu repositório.
 
+<<<<<<< HEAD
 ![](images/WhatsApp%20Image%202020-11-27%20at%2000.19.21-01.jpeg)
+=======
+![](images/WhatsApp Image 2020-11-27 at 00.19.21-01.jpeg)
+>>>>>>> 83edbf611c07239c43e2bde2886e5c75a5c9dd76
 
 > As senhas estavam em uma planilha, de acordo com o "O Estado de S. Paulo", que foi publicada por um funcionário do Hospital Albert Einstein, em São Paulo, em um site de compartilhamento de códigos de programação e arquivos chamado "*GitHub*". Segundo o jornal, o Einstein disse que tinha acesso aos dados porque está trabalhando em um projeto com o Ministério da Saúde (O Globo, 26/11/2020).
 
