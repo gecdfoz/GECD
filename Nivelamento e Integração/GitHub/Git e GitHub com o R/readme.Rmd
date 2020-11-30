@@ -35,11 +35,11 @@ Para iniciar a familiarização com a ferramenta, que tal conhecer alguns projet
 
 -   Instalar o [R](https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe) e o [RStudio](https://rstudio.com/products/rstudio/download/) (lembre de sempre manter versões atualizadas!).
 
--   Fazer uma conta no [GitHub](https://github.com/). Se você é estudande, pode usar o seu e-mail institucional para obter alguns com o [GitHub Student Developer Pack](https://education.github.com/pack).
+-   Fazer uma conta no [GitHub](https://github.com/). Se você é estudande, pode usar o seu e-mail institucional para obter alguns beneficios com o [GitHub Student Developer Pack](https://education.github.com/pack).
 
 -   Instalar o [Git](https://git-scm.com/download/).
 
--   Instalar o pacote "[usethis](https://usethis.r-lib.org/)"
+-   Instalar o pacote "[usethis](https://usethis.r-lib.org/)".
 
 ```{r eval=FALSE, include=TRUE}
 install.packages("usethis")
@@ -54,8 +54,8 @@ Após instalar todas as aplicações necessárias, nós vamos configurar o Git e
 No RStudio você precisa escrever e executar a seguinte função com o nome e e-mail cadastrado em sua conta GitHub:
 
 ```{r eval=FALSE, include=TRUE}
-usethis::use_git_config(user.name = "Marília Melo Favalesso", # Seu nome
-                        user.email = "mariliabioufpr@gmail.com ") # Seu email
+usethis::use_git_config(user.name = "Fulana de tal", # Seu nome
+                        user.email = "fulanadetal@email.com.br") # Seu email
 
 ```
 
@@ -88,7 +88,7 @@ Ao executa-lo, uma página do GitHub irá abrir. Nela você poderá dar um novo 
 
 ![](images/token.png)
 
-No final da página, ao clicar em `Generate token`, seu token será gerado e exibido para você. Copie **agora** e guarde esse número. Por motivos de segurança, assim que sair dessa página, você nunca mais verá esse token novamente. Se perder, basta criar outro.
+No final da página, ao clicar em `Generate token`, seu token será gerado e exibido para você. **Copie agora e guarde esse número**. Por motivos de segurança, assim que sair dessa página, você nunca mais verá esse token novamente. Se perder, basta criar outro.
 
 Agora, quando for usar a linha de comando para fazer operações de Git ou quando for criar uma aplicação que usa a API do Github, basta usar esse token no lugar da sua senha. Para agilizar, já vamos incluir o token nas configurações do nosso ambiente R e deixar tudo certo para o uso.
 
@@ -96,7 +96,6 @@ Primeiro precisamos abrir o arquivo `.Renviron`:
 
 ```{r eval=FALSE, include=TRUE}
 usethis::edit_r_environ()
-
 ```
 
 O RStudio abrirá o arquivo como uma nova página e nele vamos precisar escrever um comando 'github\_pat' seguido pelo número do token gerado, ou seja, `GITHUB_PAT=NUMERO_DO_TOKEN`.
@@ -143,7 +142,7 @@ O *RStudio* irá fazer o clone do repositório e abrirá um RProj para ele (caso
 
 ## Criando um repositório pelo RStudio
 
-Você também pode criar um novo repositório pelo RStudio utilizando a função `create_package("diretorio/nome_repo")`. Com ela, você precisará fornecer um diretório e o nome do novo¹ repositório. **!!Importante não repetir nome de repositório!! Os nomes precisam ser únicos**.
+Você também pode criar um novo repositório pelo RStudio utilizando a função `create_package("diretorio/nome_repo")`. Com ela, você precisará fornecer um diretório e o nome do novo repositório. **!!Importante não repetir nome de repositório!! Os nomes precisam ser únicos**.
 
 Relativo ao diretório, eu tenho um padrão em meu computador chamado "GitHub" onde salvo todos os repositórios que eu trabalho.
 
@@ -170,6 +169,14 @@ usethis::use_git(message = "Initial commit")
 Ao realizar a ação, o programa irá perguntar se você deseja '*commitar*' (salvar) os arquivos que estão dentro da pasta correspondente ao seu repositório na sua linha do tempo de edições. Na sequência irá pedir permissão para reiniciar o RStudio con a finalidade de adicionar a guia Git na IDE. Para ambos os casos, é necessário digitar um número correspondendo a estar de acordo (ex. 1: No way, 2: Nope, 3: Absolutely).
 
 Realizada a ação, o RStudio irá reinicializar e aparecerá a guia "Git".
+
+### Importância do .gitignore
+
+Você pode criar um arquivo *`.gitignore`* no diretório-raiz do seu repositório para dizer ao Git quais arquivos e diretórios devem ser ignorados ao fazer um commit. Para compartilhar as regras de ignorar com outros usuários que clonarem o repositório, faça o commit do arquivo *.gitignore* no seu repositório.
+
+![](images/WhatsApp Image 2020-11-27 at 00.19.21-01.jpeg)
+
+> As senhas estavam em uma planilha, de acordo com o "O Estado de S. Paulo", que foi publicada por um funcionário do Hospital Albert Einstein, em São Paulo, em um site de compartilhamento de códigos de programação e arquivos chamado "*GitHub*". Segundo o jornal, o Einstein disse que tinha acesso aos dados porque está trabalhando em um projeto com o Ministério da Saúde (O Globo, 26/11/2020).
 
 ### Do Git local para o GitHub
 

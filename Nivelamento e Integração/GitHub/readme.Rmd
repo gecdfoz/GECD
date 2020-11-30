@@ -110,5 +110,5 @@ Convencido/a? Bem-vinde ao clube!
 
 # Cursos disponíveis nesse repositório
 
-1. Introdução ao Git e Github com o GitHub desktop
-2. [Introdução ao Git e GitHub com o RStudio](https://github.com/gecdfoz/GECD/tree/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/GitHub/Git%20e%20GitHub%20com%20o%20R)
+1.  Introdução ao Git e Github com o GitHub desktop
+2.  [Introdução ao Git e GitHub com o RStudio](https://github.com/gecdfoz/GECD/tree/master/Nivelamento%20e%20Integra%C3%A7%C3%A3o/GitHub/Git%20e%20GitHub%20com%20o%20R)
