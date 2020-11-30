@@ -11,7 +11,7 @@ O *Git* é um software de controle de versões que tem como objetivo gerenciar a
 
 A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus trabalhos com o *R*!
 
-![](https://res.cloudinary.com/devpost/image/fetch/s--KP5oRp25--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/tentacles.gif%3Fraw%3Dtrue){width="306"}
+![](https://res.cloudinary.com/devpost/image/fetch/s--KP5oRp25--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://github.com/npentrel/octoclippy/blob/master/gifs/tentacles.gif%253Fraw%253Dtrue){width="306"}
 
 ## Alguns exemplos
 
@@ -35,11 +35,11 @@ Para iniciar a familiarização com a ferramenta, que tal conhecer alguns projet
 
 -   Instalar o [R](https://cran.r-project.org/bin/windows/base/R-4.0.3-win.exe) e o [RStudio](https://rstudio.com/products/rstudio/download/) (lembre de sempre manter versões atualizadas!).
 
--   Fazer uma conta no [GitHub](https://github.com/). Se você é estudande, pode usar o seu e-mail institucional para obter alguns com o [GitHub Student Developer Pack](https://education.github.com/pack).
+-   Fazer uma conta no [GitHub](https://github.com/). Se você é estudande, pode usar o seu e-mail institucional para obter alguns beneficios com o [GitHub Student Developer Pack](https://education.github.com/pack).
 
 -   Instalar o [Git](https://git-scm.com/download/).
 
--   Instalar o pacote "[usethis](https://usethis.r-lib.org/)"
+-   Instalar o pacote "[usethis](https://usethis.r-lib.org/)".
 
 ```{r eval=FALSE, include=TRUE}
 install.packages("usethis")
@@ -54,8 +54,8 @@ Após instalar todas as aplicações necessárias, nós vamos configurar o Git e
 No RStudio você precisa escrever e executar a seguinte função com o nome e e-mail cadastrado em sua conta GitHub:
 
 ```{r eval=FALSE, include=TRUE}
-usethis::use_git_config(user.name = "Marília Melo Favalesso", # Seu nome
-                        user.email = "mariliabioufpr@gmail.com ") # Seu email
+usethis::use_git_config(user.name = "Fulana de tal", # Seu nome
+                        user.email = "fulanadetal@email.com.br") # Seu email
 
 ```
 
@@ -88,7 +88,7 @@ Ao executa-lo, uma página do GitHub irá abrir. Nela você poderá dar um novo 
 
 ![](images/token.png)
 
-No final da página, ao clicar em `Generate token`, seu token será gerado e exibido para você. Copie **agora** e guarde esse número. Por motivos de segurança, assim que sair dessa página, você nunca mais verá esse token novamente. Se perder, basta criar outro.
+No final da página, ao clicar em `Generate token`, seu token será gerado e exibido para você. **Copie agora e guarde esse número**. Por motivos de segurança, assim que sair dessa página, você nunca mais verá esse token novamente. Se perder, basta criar outro.
 
 Agora, quando for usar a linha de comando para fazer operações de Git ou quando for criar uma aplicação que usa a API do Github, basta usar esse token no lugar da sua senha. Para agilizar, já vamos incluir o token nas configurações do nosso ambiente R e deixar tudo certo para o uso.
 
@@ -96,10 +96,9 @@ Primeiro precisamos abrir o arquivo `.Renviron`:
 
 ```{r eval=FALSE, include=TRUE}
 usethis::edit_r_environ()
-
 ```
 
-O RStudio abrirá o arquivo como uma nova página e nele vamos precisar escrever um comando 'github\_pat' seguido pelo número do token gerado, ou seja, `GITHUB_PAT=NUMERO_DO_TOKEN`.
+O RStudio abrirá o arquivo como uma nova página e nele vamos precisar escrever um comando 'github_pat' seguido pelo número do token gerado, ou seja, `GITHUB_PAT=NUMERO_DO_TOKEN`.
 
 ![](images/github_PAT.png)
 
@@ -121,7 +120,7 @@ Acesse a sua conta GitHub e acesse a opção "new" na guia "repositories" (1a). 
 
 #### Dicas:
 
-Coloque um nome sem espaço e sem caracteres especiais no seu repositório. Quanto mais simples o nome, melhor! Por exemplo, em ver de colocar o nome "Meu respositório", colocar "meu\_repositorio".
+Coloque um nome sem espaço e sem caracteres especiais no seu repositório. Quanto mais simples o nome, melhor! Por exemplo, em ver de colocar o nome "Meu respositório", colocar "meu_repositorio".
 
 A descrição desse repositório deve ser direta e sucinta! As informações mais detalhadas estarão no arquivo 'README.md'.
 
@@ -133,8 +132,7 @@ Agora que você já criou um repositório no GitHub, é necessário clona-lo par
 
 Na aba "Create Project" (1), selecionar a opção **Version Control** e, na sequência, em "Create Project from Version Control" (2) eleger a opção **Git**.
 
-![](images/newproject2.png)\
-
+![](images/newproject2.png)
 Na seguida, na guia "Clone Git Repository", você precisara preencher os dados do repositório que você quer clonar. Especificamente, você precisará copiar a URL do seu repositório GitHub (1b) na guia "Repository URL" (2a). Após inserir a URL, o campo "project directory name" (2b) será preenchido automaticamente. Para finalizar, você precisa escolher um diretório - uma pasta no seu computador - para manter uma cópia local do seu repositório (2c).
 
 ![](images/clone.png)
@@ -143,7 +141,7 @@ O *RStudio* irá fazer o clone do repositório e abrirá um RProj para ele (caso
 
 ## Criando um repositório pelo RStudio
 
-Você também pode criar um novo repositório pelo RStudio utilizando a função `create_package("diretorio/nome_repo")`. Com ela, você precisará fornecer um diretório e o nome do novo¹ repositório. **!!Importante não repetir nome de repositório!! Os nomes precisam ser únicos**.
+Você também pode criar um novo repositório pelo RStudio utilizando a função `create_package("diretorio/nome_repo")`. Com ela, você precisará fornecer um diretório e o nome do novo repositório. **!!Importante não repetir nome de repositório!! Os nomes precisam ser únicos**.
 
 Relativo ao diretório, eu tenho um padrão em meu computador chamado "GitHub" onde salvo todos os repositórios que eu trabalho.
 
@@ -155,11 +153,11 @@ O *RStudio* abrirá outra janela, com o novo projeto criado.
 
 ### Guia Git no RStudio
 
-Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*). Para facilitar a nossa vida, também vamos pedir a abertura de uma guia chamada "Git" na nossa IDE.
-
-Aqui vamos trabalhar na janela que o RStudio abriu após criar um novo projeto.
+Agora que você já sabe como criar e clonar repositórios, as próximas estapas serão aprender a salvar as mudanças realizadas (*commit*) e envia-las para o seu repositório no Github (*push*). É provável que nessa etapa uma guia chamada "Git" já tenha aparecido na sua IDE. Caso não, a próxima função vai perguntar se você deseja adiciona-la.
 
 ![](images/guia_git.png)
+
+Aqui vamos trabalhar na janela que o RStudio abriu após criar um novo projeto.
 
 Primeiro vamos executar o comando `use_git()` do pacote usethis. O comando inicializa um repositório *Git* e adicionar arquivos importantes ao *.gitignore* (especifica arquivos intencionalmente não rastreados para ignorar). Se o usuário consentir, ele também fará um *commit* inicial.
 
@@ -170,6 +168,14 @@ usethis::use_git(message = "Initial commit")
 Ao realizar a ação, o programa irá perguntar se você deseja '*commitar*' (salvar) os arquivos que estão dentro da pasta correspondente ao seu repositório na sua linha do tempo de edições. Na sequência irá pedir permissão para reiniciar o RStudio con a finalidade de adicionar a guia Git na IDE. Para ambos os casos, é necessário digitar um número correspondendo a estar de acordo (ex. 1: No way, 2: Nope, 3: Absolutely).
 
 Realizada a ação, o RStudio irá reinicializar e aparecerá a guia "Git".
+
+### Importância do .gitignore
+
+Você pode criar um arquivo *`.gitignore`* no diretório-raiz do seu repositório para dizer ao Git quais arquivos e diretórios devem ser ignorados ao fazer um commit. Para compartilhar as regras de ignorar com outros usuários que clonarem o repositório, faça o commit do arquivo *.gitignore* no seu repositório.
+
+![](images/WhatsApp%20Image%202020-11-27%20at%2000.19.21-01.jpeg)
+
+> As senhas estavam em uma planilha, de acordo com o "O Estado de S. Paulo", que foi publicada por um funcionário do Hospital Albert Einstein, em São Paulo, em um site de compartilhamento de códigos de programação e arquivos chamado "*GitHub*". Segundo o jornal, o Einstein disse que tinha acesso aos dados porque está trabalhando em um projeto com o Ministério da Saúde (O Globo, 26/11/2020).
 
 ### Do Git local para o GitHub
 
@@ -192,10 +198,6 @@ usethis::use_readme_md()
 
 Com a execução da função, o RStudio abrirá uma nova guia para edição desse arquivo.
 
-### Exemplo:
-
-INCLUIR UM VÍDEO OU GIF MOSTRANDO TODO O PROCESSO.
-
 ## Como contribuir em repositórios de terceiros?
 
 ### Clone
@@ -210,7 +212,7 @@ usethis::create_from_github(repo_spec = "proprietario/nome_repositorio",
                             fork = FALSE)
 ```
 
-Com a função 'create\_from\_github()' vamos precisar fornecer o nome do próprietario e o nome do repositório do github e o local onde vamos armazenar as informações clonadas em nossa máquina. Por exemplo, para clonar o repositório do GECD, você precisará escrever "gecdfoz/GECD" em repo\_spec.
+Com a função 'create_from_github()' vamos precisar fornecer o nome do próprietario e o nome do repositório do github e o local onde vamos armazenar as informações clonadas em nossa máquina. Por exemplo, para clonar o repositório do GECD, você precisará escrever "gecdfoz/GECD" em repo_spec.
 
 ![](images/clonar_repo.png)
 
@@ -246,19 +248,18 @@ Quando estamos fazendo um projeto em grupo, separamos várias partes desse proje
 
 No próximo diagrama, alguém fez merge da pull request para `feature1` no branch `mestre` , e eles excluíram o branch `feature1`. Como resultado, o GitHub redirecionou automaticamente a pull request para `feature2` para que seu branch base seja agora `mestre`.
 
-![](https://docs.github.com/assets/images/help/branches/pr-retargeting-diagram2.png "Fonte: https://docs.github.com/")\
-Para criar um novo branch no repositório clonado, vamos usar a função pr\_init(branch = 'nome\_branch').
+![](https://docs.github.com/assets/images/help/branches/pr-retargeting-diagram2.png "Fonte: https://docs.github.com/")
+Para criar um novo branch no repositório clonado, vamos usar a função pr_init(branch = 'nome_branch').
 
-```{r}
+```{r eval=FALSE, include=TRUE}
 usethis::pr_init(branch = "branch_teste")
 ```
 
-\
 Para finalizar, quando realizar suas contribuições, sempre faça commits com mensagens que deixem claro quais contribuições estão sendo realizadas.
 
-Ao terminar de trabalhar com o código, utilize a função pr\_push() para subi-lo ao repositório.
+Ao terminar de trabalhar com o código, utilize a função pr_push() para subi-lo ao repositório.
 
-```{r}
+```{r eval=FALSE, include=TRUE}
 usethis::pr_push()
 ```
 
@@ -272,7 +273,6 @@ Na sequência, preencha as informações sobre as mudanças realizadas. Existem 
 
 Após essa etapa, você deve esperar o mantenedor do repositório respondendo com o aceite do seu PR, ou com sugestões de melhoras ou mesmo o não-aceite do código. Na imagem na sequência temos o resultado final do PR.
 
-\
 ![](images/create_pull_gihub3.png)
 
 Depois que o PR é aceito, temos a fusão entre as suas mudanças e o master.
@@ -301,8 +301,7 @@ Depois de confirmar suas alterações, você pode dar um `pull` para baixar a ve
 
 Depois de terminar o processo de pull, você pode clicar no botão `push` para fazer upload de suas alterações para GitHub e compartilhar seu trabalho com outras pessoas. Isso é equivalente ao comando `git push`.
 
-\
-\#\#\# Colabore com esse curso! Caso você possua alguma sugestão de alteração para essa guia, sinta-se a vontade para sugerir modificações! Quem sabe esse pode ser o seu primeiro projeto colaborativo no GitHub 🌸\
+\#\#\# Colabore com esse curso! Caso você possua alguma sugestão de alteração para essa guia, sinta-se a vontade para sugerir modificações! Quem sabe esse pode ser o seu primeiro projeto colaborativo no GitHub :cherry_blossom:
 
 ## Tarefas:
 
@@ -317,5 +316,3 @@ Depois de terminar o processo de pull, você pode clicar no botão `push` para f
 -   Caso realize alguma modificação nesse ou em outro curso do GECD, inclua o seu nome na guia 'colaboradores'.
 
 -   Caso você encontre algum erro ou problema, [registre um issue em nosso repositório](https://github.com/gecdfoz/GECD/issues).
-
-    \
