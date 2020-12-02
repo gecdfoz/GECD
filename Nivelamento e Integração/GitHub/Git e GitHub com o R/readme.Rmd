@@ -7,7 +7,7 @@ output: md_document
 
 # Introdução ao Git e ao GitHub
 
-O *Git* é um software de controle de versões que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o [*Git*](https://www.atlassian.com/br/git/tutorials/what-is-git) examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado [*GitHub*](https://github.com/). A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
+O *Git* é um software de controle de versões (VCS) que tem como objetivo gerenciar arquivos texto, principalmente códigos de programação. O funcionamento dessa ferramenta é semelhante aos sistemas de nuvens (Google Drive, Dropbox, Mega, etc), em que podemos compartilhar as edições de um script com uma equipe, além de retomar antigas versões de nossos arquivos. Resumidamente, o [*Git*](https://www.atlassian.com/br/git/tutorials/what-is-git) examina as mudanças realizadas nos arquivos de um diretório e vai guardando essas informações para compartilhar com outros usuários e/ou possibilitar a reversão de alterações realizadas. Além de ser uma ferramenta extremamente útil, o *Git* se conecta ao serviço de hospedagem e armazenamento de versões chamado [*GitHub*](https://github.com/). A partir do *GitHub* é possível contribuir com projetos de qualquer lugar do mundo, além de compartilhar os nossos próprios códigos com fins de divulgação e/ou colaboração.
 
 A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *Git* e o *GitHub*, o que poderá mudar a sua vida diária nos seus trabalhos com o *R*!
 
@@ -18,8 +18,12 @@ A partir do *RStudio* temos algumas maneiras bem práticas de trabalhar com o *G
 Para iniciar a familiarização com a ferramenta, que tal conhecer alguns projetos hospedados no GitHub?
 
 1.  Temos o repositório do nosso grupo de estudos, o [GECD](https://github.com/gecdfoz/GECD).
-2.  O projeto [Fio-de-Ariadne](https://github.com/cuducos/fio-de-ariadne).
-3.  (...)
+2.  Repositório do [Curso-R](https://github.com/curso-r).
+3.  Repositório do [DadosCope](https://github.com/dadoscope).
+
+Ou mesmo, pessoas que usam o GitHub para hospedar os seus códigos?
+
+1.  
 
 ## Referências desse curso
 
@@ -132,8 +136,7 @@ Agora que você já criou um repositório no GitHub, é necessário clona-lo par
 
 Na aba "Create Project" (1), selecionar a opção **Version Control** e, na sequência, em "Create Project from Version Control" (2) eleger a opção **Git**.
 
-![](images/newproject2.png)
-Na seguida, na guia "Clone Git Repository", você precisara preencher os dados do repositório que você quer clonar. Especificamente, você precisará copiar a URL do seu repositório GitHub (1b) na guia "Repository URL" (2a). Após inserir a URL, o campo "project directory name" (2b) será preenchido automaticamente. Para finalizar, você precisa escolher um diretório - uma pasta no seu computador - para manter uma cópia local do seu repositório (2c).
+![](images/newproject2.png) Na seguida, na guia "Clone Git Repository", você precisara preencher os dados do repositório que você quer clonar. Especificamente, você precisará copiar a URL do seu repositório GitHub (1b) na guia "Repository URL" (2a). Após inserir a URL, o campo "project directory name" (2b) será preenchido automaticamente. Para finalizar, você precisa escolher um diretório - uma pasta no seu computador - para manter uma cópia local do seu repositório (2c).
 
 ![](images/clone.png)
 
@@ -173,15 +176,13 @@ Realizada a ação, o RStudio irá reinicializar e aparecerá a guia "Git".
 
 Você pode criar um arquivo *`.gitignore`* no diretório-raiz do seu repositório para dizer ao Git quais arquivos e diretórios devem ser ignorados ao fazer um commit. Para compartilhar as regras de ignorar com outros usuários que clonarem o repositório, faça o commit do arquivo *.gitignore* no seu repositório.
 
-<<<<<<< HEAD
-![]()
-=======
-![](images/WhatsApp Image 2020-11-27 at 00.19.21-01.jpeg)
+![](images/WhatsApp%20Image%202020-11-27%20at%2000.19.21-02.jpeg)
+
 > As senhas estavam em uma planilha, de acordo com o "O Estado de S. Paulo", que foi publicada por um funcionário do Hospital Albert Einstein, em São Paulo, em um site de compartilhamento de códigos de programação e arquivos chamado "*GitHub*". Segundo o jornal, o Einstein disse que tinha acesso aos dados porque está trabalhando em um projeto com o Ministério da Saúde (O Globo, 26/11/2020).
 
 ### Do Git local para o GitHub
 
-Agora que já criamos um novo projeto no Git e já salvamos os arquivos iniciais com um commit, o nosso próximo passo será criar um repositório associado ao GitHub, adicionando-o ao nosso repo local como uma *origem* remota, e então fazemos um *push* inicial para sincronizar os dois. Para tal, vamos usar o comando chamado `use_github()` do pacote *usethis*.
+Agora que já criamos um novo projeto no Git e já salvamos os arquivos iniciais com um `commit`, o nosso próximo passo será criar um repositório associado ao GitHub, adicionando-o ao nosso repo local como uma *origem* remota, e então fazemos um *push* inicial para sincronizar os dois. Para tal, vamos usar o comando chamado `use_github()` do pacote *usethis*.
 
 ```{r eval=FALSE, include=TRUE}
 usethis::use_github()
@@ -202,11 +203,11 @@ Com a execução da função, o RStudio abrirá uma nova guia para edição dess
 
 ## Como contribuir em repositórios de terceiros?
 
-### Clone
+Para iniciar a contribuição em projetos de terceiros, o primeiro passo é clonar (ou cópiar) todo um projeto disponível no GitHub para a sua máquina. Apenas clonar o projeto não possibilita editar informações no repositório original! Para isso, é necessário usar um `fork` ou um `branch`.
 
-Como o nome já diz, é literalmente clonar (ou cópiar) todo um projeto disponível no github para a sua máquina. Cópiar o projeto não possibilita editar informações no repositório original! Para isso, é necessário usar um *fork* ou um *branch*.
+Para clonarmos o repositório, vamos utilizar a função `create_from_github()`. Para que essa função funcione, é necessário ter o PAT configurado na sua máquina.
 
-Para realizar a cópia do projeto para a sua máquina, é necessário utilizar a função `create_from_github()`. Para que essa função funcione, é necessário ter o PAT configurado na sua máquina.
+Com a função 'create_from_github()' vamos precisar fornecer o nome do próprietario e o nome do repositório GitHub, além do local onde vamos armazenar as informações clonadas em nossa máquina. Por exemplo, para clonar o repositório do GECD, você precisará escrever "gecdfoz/GECD" em repo_spec.
 
 ```{r eval=FALSE, include=TRUE}
 usethis::create_from_github(repo_spec = "proprietario/nome_repositorio",
@@ -214,19 +215,15 @@ usethis::create_from_github(repo_spec = "proprietario/nome_repositorio",
                             fork = FALSE)
 ```
 
-Com a função 'create_from_github()' vamos precisar fornecer o nome do próprietario e o nome do repositório do github e o local onde vamos armazenar as informações clonadas em nossa máquina. Por exemplo, para clonar o repositório do GECD, você precisará escrever "gecdfoz/GECD" em repo_spec.
-
 ![](images/clonar_repo.png)
 
-### Fork
+Como foi comentado, um dos métodos para contribuir com projetos ou dar continuidade aos mesmos é utilizando o `fork`. Criar um "fork" (ou uma ramificação/bifurcação) é produzir uma cópia pessoal do projeto de outra pessoa no seu Git. Forks funcionam como uma espécie de ponte entre o repositório original e sua máquina. Através do fork, você pode realizar edições ou melhoras no projeto e envia-las para os idealizadores através de um `pull request`.
 
 ![](https://camo.githubusercontent.com/431eb028415c13b902568381cf937a432c1f38e9e242967ce35c62cc5a23274b/68747470733a2f2f692e696d6775722e636f6d2f7034563967317a2e676966)
 
-Uma **bifurcação** ou ***ramificação*** (em inglês: *fork*) acontece quando um/a programador/a (ou um grupo de programadores) inicia um projeto independente com base no código de um projeto já existente, ou seja, quando um software é desenvolvido com base em outro, já existente, sem a descontinuidade deste último.
+Uma analogia bem simples é: Imagine que um colega escreveu um artigo científico e subiu todo o material associado a ele a um repositório do GitHub. Quando você `clona` e faz um `fork` desse repositório, você está copiando todo o material desse repositório para o seu Git. Essa cópia continua conectada ao repositório original após isso. Feito o fork, você terá acesso ao histórico de alterações que o seu colega fez nos arquivos ao longo do tempo. Entre esses arquivos, você encontra um chamado "manuscrito". Ao ler o manuscrito, você observa que existem vários erros de português e resolve corrigi-los. Realizadas as correções, você poderá envia-las para o seu colega atráves de um `pull resquest`. Assim, por meio do fork, você conseguiu enviar alterações importantes para o seu colega. Agora dependera de o colega aceitar ou não essas alterações.
 
-Imagine que existe um repositório de um determinado software no github. Quando você clica na guia 'fork' desse repositório, você está copiando todos os dados desse repositório para a sua conta. Essa cópia continua conectada ao repositório original após isso. Se você você fizer um fork com algum projeto, irá notar uma barra informando quantos *commits* a sua *branch* está atrás ou na frente do projeto inicial. Com essa cópia em mãos, você poderá editar esse projeto com a finalidade de criar algo novo ou realizar correções com a finalidade de devolver para o desenvolvedor do projeto clonado.
-
-A função que vamos utilizar é igual a anterior, a única diferença é que mudamos o 'FALSE' apra 'TRUE' no local que diz 'fork = '.
+Para ter essa 'ponte' entre um projeto original e o seu clone, é necessário utilizar a mesma função que a anterior, porém mudando o `fork = FALSE` para `fork = TRUE`.
 
 ```{r eval=FALSE, include=TRUE}
 usethis::create_from_github(repo_spec = "proprietario/nome_repositorio",
@@ -234,27 +231,16 @@ usethis::create_from_github(repo_spec = "proprietario/nome_repositorio",
                             fork = TRUE)
 ```
 
-### Branch
+Outro método de contribuir em projetos são pelas branches ou galhos de árvore de desenvolvimento. O projeto principal é chamado de tronco (do inglês, trunk). Quando você inicia o *git init,* você tem um *branch* padrão chamado *master*. Com a finalidade de evitar conflitos no código, nós sempre criamos novas branches a partir do master. Imagine que você esteja trabalhando em um projeto com outros cinco colaboradores. Se todos trabalharem em uma única branch, cada vez que vocês forem subir os códigos para o repositório, será uma bagunça! Se as mudanças funcionam de acordo com o planejado, elas geralmente são mescladas de volta para o tronco principal (*trunk*). Essa técnica é muito utilizada para experimentos e para desenvolvimentos paralelos.
 
-O *branch* é um *galho da árvore de desenvolvimento*, enquanto o projeto é chamado de *trunk (tronco)*. Quando você inicia o *git init* você tem um *branch* padrão chamado *master*. O master é uma cópia do código derivado de um certo ponto do *trunk* que é utilizado para a aplicação de mudanças no código, preservando a integridade do código no *trunk*. Você sempre cria um novo branch a partir de um branch já existente.
+Quando estamos fazendo um projeto em grupo, separamos várias partes desse projeto para que cada um aporte a sua contribuição. Por exemplo, se é um trabalho do colégio ou faculdade, podemos dividir o trabalho em introdução, métodos, resultados e discussão. Imagine que esse determinado trabalho esteja armazenado em um repositório do GitHub, sendo possível trabalhar dentro de um arquivo entre várias pessoas. Nesse exemplo, temos o arquivo principal como um trunk (ex. "trabalho.doc") e criamos branches para as partes que faltam ser realizadas (ex. branch_resultados e branch_discussao). Conforme vamos fazendo edições, vamos salvando elas em commits. Ao final das contribuições em cada branch, é realizado um merge entre a branch em edição e a master, montando assim o trabalho final.
 
-Quando você estiver trabalhando em equipe, evite desenvolver no branch *master* pois poderá dar muitos conflitos. Sempre crie um branch para fazer suas modificações. Por exemplo, você vai desenvolver uma funcionalidade nova para listar os clientes do banco de dados e editar, você poderia criar um novo branch chamado clientes e trabalhar nesse branch para depois jogar ao master.
+![](images/branches.svg)
 
-Se as mudanças funcionam de acordo com o planejado, elas geralmente são mescladas de volta para o tronco principal (*trunk*). Essa técnica é muito utilizada para experimentos e para desenvolvimentos paralelos.
-
-Quando estamos fazendo um projeto em grupo, separamos várias partes desse projeto para que cada um aporte a sua contribuição. Por exemplo, se é um trabalho do colégio ou faculdade, podemos dividir a introdução, os métodos, os resultados e a discussão entre quatro pessoas. Imagine que esse determinado trabalho esteja armazenado em um repositório do GitHub, sendo possível trabalhar dentro de um arquivo entre várias pessoas. Nesse exemplo, temos o projeto principal como um trunk e cada parte desse projeto como branchs. Ao final do projeto, é possível que o criador do repositório aceite todas as partes do trabalho feitas ou apenas algumas delas.
-
-Aqui alguém criou um branch chamado `feature1` a partir do branch `mestre`, e você então criou um branch chamado `feature2` a partir do `feature1`. Existem pull requests abertas para ambos os branches. As setas indicam o branch base atual para cada pull request. Neste ponto, `feature1` é o branch base para `feature2`. Se a pull request para `feature2` for mesclada agora, o branch `feature2` será mesclado no `feature1`.
-
-> ![](https://docs.github.com/assets/images/help/branches/pr-retargeting-diagram1.png)
-
-No próximo diagrama, alguém fez merge da pull request para `feature1` no branch `mestre` , e eles excluíram o branch `feature1`. Como resultado, o GitHub redirecionou automaticamente a pull request para `feature2` para que seu branch base seja agora `mestre`.
-
-![](https://docs.github.com/assets/images/help/branches/pr-retargeting-diagram2.png "Fonte: https://docs.github.com/")
 Para criar um novo branch no repositório clonado, vamos usar a função pr_init(branch = 'nome_branch').
 
 ```{r eval=FALSE, include=TRUE}
-usethis::pr_init(branch = "branch_teste")
+usethis::pr_init(branch = "branch_resultado")
 ```
 
 Para finalizar, quando realizar suas contribuições, sempre faça commits com mensagens que deixem claro quais contribuições estão sendo realizadas.
