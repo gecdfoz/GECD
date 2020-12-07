@@ -69,9 +69,9 @@ Outra possibilidade é executar essa configuração diretamente no Git em sua m�
 
 ![](images/conf_git.png)
 
-## Configurando o GitHub
+# Configurando o GitHub
 
-### Token de acesso pessoal (PAT)
+## Token de acesso pessoal (PAT)
 
 Um token de acesso pessoal é uma alternativa à senha que você usaria ao acessar sua conta no serviço de hospedagem do repositório GitHub. De forma simplificada, seria uma chave com um formato semelhante a `48t979e5677b198592e5047da8a79f53bcasb4b10` que dará permissão ao RStudio acessar diretamente o seu GitHub.
 
