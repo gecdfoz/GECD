@@ -43,3 +43,5 @@ gecdfozdoiguacu@gmail.com
 
 >Statistics is all about reasoning under uncertainty
 - [John D. Cook](https://www.johndcook.com/blog/2020/03/30/reasoning-under-uncertainty/)
+
+<3
