@@ -13,9 +13,9 @@ _E agora vamos dar inicio as atividades do GECD 2020.1!_ Ao longo desse ano ser�
 
 ![Essa é a nossa mascota, a gatinha Yuyo!](https://github.com/gecdfoz/GECD/blob/master/gatinho_Yuyo.jpg?raw=true)
 
-## Programação 2020.1:
+## Programação 2021:
 
-SUSPENSO
+AGUARDE
 
 ## Organizadores:
 
@@ -30,6 +30,9 @@ Ramon Fernandes Lourenço
 Giovani Leite
 
 Lucas de Castro Oliveira
+
+Frederico Lovato
+
 
 ## Contato:
 
